@@ -3,6 +3,7 @@ const App = () => {
     <div className=''>
       <Hero />
       <Services />
+      <Portfolio />
     </div>
   )
 }
