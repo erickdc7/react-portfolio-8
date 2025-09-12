@@ -2,6 +2,7 @@ const App = () => {
   return (
     <div className=''>
       <Hero />
+      <Services />
     </div>
   )
 }
