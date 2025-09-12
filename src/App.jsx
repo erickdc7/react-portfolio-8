@@ -1,5 +1,6 @@
 import Hero from './components/hero/Hero'
 import Services from './components/services/Services'
+import Portfolio from './components/portfolio/Portfolio'
 
 const App = () => {
   return (
