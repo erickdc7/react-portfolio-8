@@ -4,6 +4,7 @@ const App = () => {
       <Hero />
       <Services />
       <Portfolio />
+      <Contact />
     </div>
   )
 }
