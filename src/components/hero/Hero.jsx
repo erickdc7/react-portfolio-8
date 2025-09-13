@@ -2,7 +2,9 @@ import "./hero.css"
 
 const Hero = () => {
     return (
-        <div className="hero">Hero</div>
+        <div className="hero">
+            <div className="hSection"></div>
+        </div>
     )
 }
 
