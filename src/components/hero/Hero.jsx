@@ -23,6 +23,9 @@ const Hero = () => {
                 </div>
 
                 {/* SCROLL SVG */}
+                <a href="#services">
+
+                </a>
             </div>
 
             <div className="hSection right"></div>
