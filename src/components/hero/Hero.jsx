@@ -50,7 +50,7 @@ const Hero = () => {
                 {/* FOLLOW */}
                 <div className="follow">
                     <a href="/">
-                    
+                        <img src="instragram.png" alt="" />
                     </a>
                 </div>
             </div>
