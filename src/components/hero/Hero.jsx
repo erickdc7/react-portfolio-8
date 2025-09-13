@@ -10,7 +10,7 @@ const Hero = () => {
                 </h1>
 
                 <div className="awards">
-
+                    <h2>Top Rated Designer</h2>
                 </div>
             </div>
             <div className="hSection right"></div>
