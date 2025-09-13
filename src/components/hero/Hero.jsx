@@ -46,7 +46,9 @@ const Hero = () => {
                 </a>
             </div>
 
-            <div className="hSection right"></div>
+            <div className="hSection right">
+                {/* FOLLOW */}
+            </div>
         </div>
     )
 }
