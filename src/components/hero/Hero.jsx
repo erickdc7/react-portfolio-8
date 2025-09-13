@@ -8,6 +8,10 @@ const Hero = () => {
                     Hey, There, <br />
                     <span>I am Erick!</span>
                 </h1>
+
+                <div className="awards">
+
+                </div>
             </div>
             <div className="hSection right"></div>
         </div>
