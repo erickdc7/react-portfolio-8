@@ -61,6 +61,8 @@ const Hero = () => {
                         <img src="youtube.png" alt="" />
                     </a>
                 </div>
+
+                {/* BUBBLE */}
             </div>
         </div>
     )
