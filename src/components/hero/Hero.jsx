@@ -14,10 +14,13 @@ const Hero = () => {
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, veniam.</p>
 
                     <div className="awardList">
-
+                        <img src="/award1.png" alt="" />
+                        <img src="/award2.png" alt="" />
+                        <img src="/award3.png" alt="" />
                     </div>
                 </div>
             </div>
+
             <div className="hSection right"></div>
         </div>
     )
