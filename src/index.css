@@ -25,3 +25,9 @@ a {
   margin-right: auto;
   background-color: rebeccapurple;
 }
+
+@media screen and (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
