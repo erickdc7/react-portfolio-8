@@ -52,6 +52,14 @@ const Hero = () => {
                     <a href="/">
                         <img src="instragram.png" alt="" />
                     </a>
+
+                    <a href="/">
+                        <img src="facebook.png" alt="" />
+                    </a>
+
+                    <a href="/">
+                        <img src="youtube.png" alt="" />
+                    </a>
                 </div>
             </div>
         </div>
