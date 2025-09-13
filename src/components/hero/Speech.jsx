@@ -1,7 +1,7 @@
 const Speech = () => {
     return (
         <div className="bubbleContainer">
-            <div className="bubble"></div>
+            <div className="bubble">Text</div>
         </div>
     )
 }
