@@ -41,6 +41,10 @@ section:nth-child(3) {
   background-color: #1b3169;
 }
 
+section:nth-child(4) {
+  background-color: #421d0b;
+}
+
 @media screen and (min-width: 640px) {
   .container {
     max-width: 640px;
