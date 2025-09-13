@@ -12,6 +12,10 @@ const Hero = () => {
                 <div className="awards">
                     <h2>Top Rated Designer</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, veniam.</p>
+
+                    <div className="awardList">
+
+                    </div>
                 </div>
             </div>
             <div className="hSection right"></div>
