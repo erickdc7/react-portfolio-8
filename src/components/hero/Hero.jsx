@@ -65,6 +65,8 @@ const Hero = () => {
 
                 {/* BUBBLE */}
                 <Speech />
+
+                {/* CERTIFICATE */}
             </div>
         </div>
     )
