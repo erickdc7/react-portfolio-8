@@ -63,6 +63,7 @@ const Hero = () => {
                 </div>
 
                 {/* BUBBLE */}
+                <Speech />
             </div>
         </div>
     )
