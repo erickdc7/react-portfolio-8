@@ -1,4 +1,5 @@
 import "./hero.css"
+import Speech from "./Speech"
 
 const Hero = () => {
     return (
