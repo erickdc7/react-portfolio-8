@@ -67,6 +67,9 @@ const Hero = () => {
                 <Speech />
 
                 {/* CERTIFICATE */}
+                <div className="certificate">
+
+                </div>
             </div>
         </div>
     )
