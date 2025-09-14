@@ -75,7 +75,7 @@ const Hero = () => {
                 </div>
 
                 {/* CONTACT BUTTON */}
-                <a href="/#contact">
+                <a href="/#contact" className="contactLink">
                     <div className="contactButton">
 
                     </div>
