@@ -50,15 +50,15 @@ const Hero = () => {
                 {/* FOLLOW */}
                 <div className="follow">
                     <a href="/">
-                        <img src="instragram.png" alt="" />
+                        <img src="/instragram.png" alt="" />
                     </a>
 
                     <a href="/">
-                        <img src="facebook.png" alt="" />
+                        <img src="/facebook.png" alt="" />
                     </a>
 
                     <a href="/">
-                        <img src="youtube.png" alt="" />
+                        <img src="/youtube.png" alt="" />
                     </a>
                 </div>
 
