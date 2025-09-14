@@ -73,6 +73,9 @@ const Hero = () => {
                     PROFESSIONAL<br />
                     UI DESIGNER
                 </div>
+
+                {/* CONTACT BUTTON */}
+                <a href="/#contact"></a>
             </div>
         </div>
     )
