@@ -63,7 +63,7 @@ const Hero = () => {
                     </a>
 
                     <div className="followTextContainer">
-
+                        <div className="followText"></div>
                     </div>
                 </div>
 
