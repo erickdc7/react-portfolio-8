@@ -85,6 +85,10 @@ const Hero = () => {
                                 d="M 100,100 m -60,0 a 60,60 0 1,1 120,0 a 60,60 0 1,1 -120,0"
                             />
                         </svg>
+
+                        <text className="circleText">
+
+                        </text>
                     </div>
                 </a>
             </div>
