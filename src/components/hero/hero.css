@@ -116,3 +116,8 @@
 .contactLink {
   margin-bottom: 50px;
 }
+
+.circleText {
+  letter-spacing: 3px;
+  font-size: 20px;
+}
