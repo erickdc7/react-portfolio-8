@@ -48,3 +48,8 @@
   background-color: white;
   border-radius: 100%;
 }
+
+.scroll {
+  margin-bottom: 50px;
+  width: max-content;
+}
