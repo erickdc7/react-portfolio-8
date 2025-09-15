@@ -35,3 +35,8 @@
   color: #ddd;
   margin: 16px 0;
 }
+
+.awardList {
+  display: flex;
+  gap: 8px;
+}
