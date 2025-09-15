@@ -106,3 +106,8 @@
   font-weight: 300;
   color: #ddd;
 }
+
+.certificate img {
+  width: 70px;
+  height: 70px;
+}
