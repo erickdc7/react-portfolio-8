@@ -86,6 +86,10 @@ const Hero = () => {
                             />
 
                             <text className="circleText">
+                                <textPath href="#innerCirclePath">Hire Now -</textPath>
+                            </text>
+
+                            <text className="circleText">
                                 <textPath href="#innerCirclePath" startOffset="44%">Contact Me -</textPath>
                             </text>
                         </svg>
