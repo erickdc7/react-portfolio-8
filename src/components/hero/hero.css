@@ -11,3 +11,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+.hSection.right {
+  align-items: end;
+}
