@@ -117,6 +117,10 @@
   margin-bottom: 50px;
 }
 
+.contactButton {
+  position: relative;
+}
+
 .circleText {
   letter-spacing: 3px;
   font-size: 20px;
