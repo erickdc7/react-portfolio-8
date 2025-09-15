@@ -61,6 +61,10 @@ const Hero = () => {
                     <a href="/">
                         <img src="/youtube.png" alt="" />
                     </a>
+
+                    <div className="followTextContainer">
+
+                    </div>
                 </div>
 
                 {/* BUBBLE */}
