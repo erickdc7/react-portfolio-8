@@ -6,6 +6,7 @@ const Speech = () => {
             <div className="bubble">
                 <TypeAnimation
                     sequence={[
+                        1000,
                         'Lorem ipsum dolor sit amet consectetur adipisicing.',
                         1000,
                         'Lorem ipsum dolor sit amet, consectetur adipisicing',
