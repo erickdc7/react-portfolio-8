@@ -11,7 +11,8 @@ const Hero = () => {
                     initial={{ y: -100, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 1 }}
-                    className="hTitle">
+                    className="hTitle"
+                >
                     Hey, There, <br />
                     <span>I am Erick!</span>
                 </motion.h1>
