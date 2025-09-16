@@ -6,10 +6,10 @@ const Hero = () => {
         <div className="hero">
             <div className="hSection left">
                 {/* TITLE */}
-                <h1 className="hTitle">
+                <motion.h1 className="hTitle">
                     Hey, There, <br />
                     <span>I am Erick!</span>
-                </h1>
+                </motion.h1>
 
                 {/* AWARDS */}
                 <div className="awards">
