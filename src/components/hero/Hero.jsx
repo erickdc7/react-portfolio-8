@@ -9,6 +9,7 @@ const Hero = () => {
                 {/* TITLE */}
                 <motion.h1
                     initial={{ y: -100, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
                     className="hTitle">
                     Hey, There, <br />
                     <span>I am Erick!</span>
