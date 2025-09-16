@@ -7,7 +7,9 @@ const Hero = () => {
         <div className="hero">
             <div className="hSection left">
                 {/* TITLE */}
-                <motion.h1 className="hTitle">
+                <motion.h1
+                    initial={{ y: -100, opacity: 0 }}
+                    className="hTitle">
                     Hey, There, <br />
                     <span>I am Erick!</span>
                 </motion.h1>
