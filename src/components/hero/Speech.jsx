@@ -6,15 +6,10 @@ const Speech = () => {
             <div className="bubble">
                 <TypeAnimation
                     sequence={[
-                        // Same substring at the start will only be typed out once, initially
-                        'We produce food for Mice',
-                        1000, // wait 1s before replacing "Mice" with "Hamsters"
-                        'We produce food for Hamsters',
+                        'Lorem ipsum dolor sit amet consectetur adipisicing.',
                         1000,
-                        'We produce food for Guinea Pigs',
+                        'Lorem ipsum dolor sit amet, consectetur adipisicing',
                         1000,
-                        'We produce food for Chinchillas',
-                        1000
                     ]}
                     wrapper="span"
                     speed={50}
