@@ -115,6 +115,10 @@ const Hero = () => {
                     </div>
                 </a>
             </div>
+
+            <div className="bg">
+
+            </div>
         </div>
     )
 }
