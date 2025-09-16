@@ -24,3 +24,5 @@ const Speech = () => {
         </div>
     )
 }
+
+export default Speech
