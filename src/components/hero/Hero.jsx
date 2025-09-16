@@ -118,7 +118,9 @@ const Hero = () => {
 
             <div className="bg">
                 {/* 3D */}
-                <div className="hImg"></div>
+                <div className="hImg">
+                    <img src="/hero.png" alt="" />
+                </div>
             </div>
         </div>
     )
