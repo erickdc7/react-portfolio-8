@@ -14,7 +14,6 @@ const Speech = () => {
                     ]}
                     wrapper="span"
                     speed={40}
-                    style={{ fontSize: '2em', display: 'inline-block' }}
                     repeat={Infinity}
                 />
             </div>
