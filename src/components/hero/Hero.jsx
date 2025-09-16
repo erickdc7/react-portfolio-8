@@ -117,7 +117,7 @@ const Hero = () => {
             </div>
 
             <div className="bg">
-
+                {/* 3D */}
             </div>
         </div>
     )
