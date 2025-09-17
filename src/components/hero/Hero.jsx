@@ -43,11 +43,14 @@ const Hero = () => {
                         Top Rated Designer
                     </motion.h2>
 
-                    <motion.p variants={awardVariants} >
+                    <motion.p variants={awardVariants}>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, veniam.
                     </motion.p>
 
-                    <motion.div className="awardList">
+                    <motion.div
+                        variants={awardVariants}
+                        className="awardList"
+                    >
                         <motion.img src="/award1.png" alt="" />
                         <motion.img src="/award2.png" alt="" />
                         <motion.img src="/award3.png" alt="" />
