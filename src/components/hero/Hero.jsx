@@ -1,11 +1,19 @@
 import "./hero.css"
 import Speech from "./Speech"
-import { motion } from "motion/react"
+import { motion, stagger } from "motion/react"
 
 const awardVariants = {
     initial: {
         x: -100,
         opacity: 0,
+    },
+    animate: {
+        x: 0,
+        opacity: 1,
+        transition: {
+            duration: 1,
+            staggerChildren: 0.2,
+        }
     },
 }
 
