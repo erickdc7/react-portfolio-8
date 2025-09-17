@@ -35,7 +35,8 @@ const Hero = () => {
                 {/* AWARDS */}
                 <motion.div
                     variants={awardVariants}
-                    initial="initial" animate="animate"
+                    initial="initial"
+                    animate="animate"
                     className="awards"
                 >
                     <h2>Top Rated Designer</h2>
