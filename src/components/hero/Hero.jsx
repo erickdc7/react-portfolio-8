@@ -39,7 +39,7 @@ const Hero = () => {
                     animate="animate"
                     className="awards"
                 >
-                    <h2>Top Rated Designer</h2>
+                    <motion.h2>Top Rated Designer</motion.h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, veniam.</p>
 
                     <div className="awardList">
