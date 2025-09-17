@@ -58,7 +58,16 @@ const Hero = () => {
                 </motion.div>
 
                 {/* SCROLL SVG */}
-                <motion.a href="#services" className="scroll">
+                <motion.a
+                    animate={{ y: [0, 5], opacity: [0, 1, 0] }}
+                    transition={{
+                        repeat: Infinity,
+                        duration: 4,
+                        ease: "easeInOut"
+                    }}
+                    href="#services"
+                    className="scroll"
+                >
                     <svg
                         width="50px"
                         height="50px"
