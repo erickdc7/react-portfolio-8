@@ -39,8 +39,10 @@ const Hero = () => {
                     animate="animate"
                     className="awards"
                 >
-                    <motion.h2>Top Rated Designer</motion.h2>
-                    
+                    <motion.h2 variants={awardVariants}>
+                        Top Rated Designer
+                    </motion.h2>
+
                     <motion.p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, veniam.</motion.p>
 
                     <motion.div className="awardList">
