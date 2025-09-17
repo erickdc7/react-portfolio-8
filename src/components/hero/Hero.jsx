@@ -99,17 +99,17 @@ const Hero = () => {
             <div className="hSection right">
                 {/* FOLLOW */}
                 <motion.div className="follow">
-                    <a href="/">
+                    <motion.a href="/">
                         <img src="/instragram.png" alt="" />
-                    </a>
+                    </motion.a>
 
-                    <a href="/">
+                    <motion.a href="/">
                         <img src="/facebook.png" alt="" />
-                    </a>
+                    </motion.a>
 
-                    <a href="/">
+                    <motion.a href="/">
                         <img src="/youtube.png" alt="" />
-                    </a>
+                    </motion.a>
 
                     <div className="followTextContainer">
                         <div className="followText">FOLLOW ME</div>
