@@ -33,7 +33,11 @@ const Hero = () => {
                 </motion.h1>
 
                 {/* AWARDS */}
-                <motion.div variants={awardVariants} className="awards">
+                <motion.div
+                    variants={awardVariants}
+                    initial="initial" animate="animate"
+                    className="awards"
+                >
                     <h2>Top Rated Designer</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, veniam.</p>
 
