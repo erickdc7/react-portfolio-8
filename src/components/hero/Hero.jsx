@@ -81,6 +81,12 @@ const Hero = () => {
                             strokeWidth="1"
                         />
                         <motion.path
+                            animate={{ y: [0, 5] }}
+                            transition={{
+                                repeat: Infinity,
+                                duration: 4,
+                                ease: "easeInOut"
+                            }}
                             d="M12 5V8"
                             stroke="white"
                             strokeWidth="1"
