@@ -2,6 +2,10 @@ import "./hero.css"
 import Speech from "./Speech"
 import { motion } from "motion/react"
 
+const awardVariants={
+    
+}
+
 const Hero = () => {
     return (
         <div className="hero">
