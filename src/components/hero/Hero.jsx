@@ -115,6 +115,8 @@ const Hero = () => {
                 {/* FOLLOW */}
                 <motion.div
                     variants={followVariants}
+                    initial="initial"
+                    animate="animate"
                     className="follow"
                 >
                     <motion.a href="/">
