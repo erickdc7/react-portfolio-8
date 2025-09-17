@@ -58,7 +58,7 @@ const Hero = () => {
                 </motion.div>
 
                 {/* SCROLL SVG */}
-                <a href="#services" className="scroll">
+                <motion.a href="#services" className="scroll">
                     <svg
                         width="50px"
                         height="50px"
@@ -78,7 +78,7 @@ const Hero = () => {
                             strokeLinecap="round"
                         />
                     </svg>
-                </a>
+                </motion.a>
             </div>
 
             <div className="hSection right">
