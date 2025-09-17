@@ -2,8 +2,11 @@ import "./hero.css"
 import Speech from "./Speech"
 import { motion } from "motion/react"
 
-const awardVariants={
-    
+const awardVariants = {
+    initial: {
+        x: -100,
+        opacity: 0,
+    },
 }
 
 const Hero = () => {
