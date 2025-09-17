@@ -80,7 +80,7 @@ const Hero = () => {
                             stroke="white"
                             strokeWidth="1"
                         />
-                        <path
+                        <motion.path
                             d="M12 5V8"
                             stroke="white"
                             strokeWidth="1"
