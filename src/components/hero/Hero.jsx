@@ -40,7 +40,7 @@ const Hero = () => {
                     className="awards"
                 >
                     <motion.h2>Top Rated Designer</motion.h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, veniam.</p>
+                    <motion.p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, veniam.</motion.p>
 
                     <div className="awardList">
                         <img src="/award1.png" alt="" />
