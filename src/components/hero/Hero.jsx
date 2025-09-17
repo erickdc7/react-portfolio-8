@@ -119,15 +119,15 @@ const Hero = () => {
                     animate="animate"
                     className="follow"
                 >
-                    <motion.a href="/">
+                    <motion.a variants={followVariants} href="/">
                         <img src="/instragram.png" alt="" />
                     </motion.a>
 
-                    <motion.a href="/">
+                    <motion.a variants={followVariants} href="/">
                         <img src="/facebook.png" alt="" />
                     </motion.a>
 
-                    <motion.a href="/">
+                    <motion.a variants={followVariants} href="/">
                         <img src="/youtube.png" alt="" />
                     </motion.a>
 
