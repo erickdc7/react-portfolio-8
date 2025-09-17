@@ -98,7 +98,7 @@ const Hero = () => {
 
             <div className="hSection right">
                 {/* FOLLOW */}
-                <div className="follow">
+                <motion.div className="follow">
                     <a href="/">
                         <img src="/instragram.png" alt="" />
                     </a>
@@ -114,7 +114,7 @@ const Hero = () => {
                     <div className="followTextContainer">
                         <div className="followText">FOLLOW ME</div>
                     </div>
-                </div>
+                </motion.div>
 
                 {/* BUBBLE */}
                 <Speech />
