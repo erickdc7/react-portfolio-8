@@ -51,9 +51,9 @@ const Hero = () => {
                         variants={awardVariants}
                         className="awardList"
                     >
-                        <motion.img src="/award1.png" alt="" />
-                        <motion.img src="/award2.png" alt="" />
-                        <motion.img src="/award3.png" alt="" />
+                        <motion.img variants={awardVariants} src="/award1.png" alt="" />
+                        <motion.img variants={awardVariants} src="/award2.png" alt="" />
+                        <motion.img variants={awardVariants} src="/award3.png" alt="" />
                     </motion.div>
                 </motion.div>
 
