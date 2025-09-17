@@ -113,7 +113,10 @@ const Hero = () => {
 
             <div className="hSection right">
                 {/* FOLLOW */}
-                <motion.div className="follow">
+                <motion.div
+                    variants={followVariants}
+                    className="follow"
+                >
                     <motion.a href="/">
                         <img src="/instragram.png" alt="" />
                     </motion.a>
