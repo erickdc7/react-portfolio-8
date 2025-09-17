@@ -33,7 +33,7 @@ const Hero = () => {
                 </motion.h1>
 
                 {/* AWARDS */}
-                <div className="awards">
+                <motion.div className="awards">
                     <h2>Top Rated Designer</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, veniam.</p>
 
@@ -42,7 +42,7 @@ const Hero = () => {
                         <img src="/award2.png" alt="" />
                         <img src="/award3.png" alt="" />
                     </div>
-                </div>
+                </motion.div>
 
                 {/* SCROLL SVG */}
                 <a href="#services" className="scroll">
