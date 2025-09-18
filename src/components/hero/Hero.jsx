@@ -166,7 +166,7 @@ const Hero = () => {
                         duration: 2,
                     }}
                 >
-                    <div className="contactButton">
+                    <motion.div className="contactButton">
                         <svg viewBox="0 0 200 200" width="150" height="150">
                             <circle cx="100" cy="100" r="90" fill="pink" />
                             <path
@@ -198,7 +198,7 @@ const Hero = () => {
                                 <polyline points="9 6 18 6 18 15" />
                             </svg>
                         </div>
-                    </div>
+                    </motion.div>
                 </motion.a>
             </div>
 
