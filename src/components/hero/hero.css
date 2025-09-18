@@ -231,6 +231,10 @@
     height: 60%;
   }
 
+  .hSection {
+    width: 100%;
+  }
+
   .hTitle {
     font-size: 72px;
   }
