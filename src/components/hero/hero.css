@@ -216,4 +216,8 @@
   .bg {
     height: 50%;
   }
+
+  .hTitle {
+    font-size: 72px;
+  }
 }
