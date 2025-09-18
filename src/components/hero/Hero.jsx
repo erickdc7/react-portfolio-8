@@ -155,7 +155,7 @@ const Hero = () => {
                 </motion.div>
 
                 {/* CONTACT BUTTON */}
-                <a href="/#contact" className="contactLink">
+                <motion.a href="/#contact" className="contactLink">
                     <div className="contactButton">
                         <svg viewBox="0 0 200 200" width="150" height="150">
                             <circle cx="100" cy="100" r="90" fill="pink" />
@@ -189,7 +189,7 @@ const Hero = () => {
                             </svg>
                         </div>
                     </div>
-                </a>
+                </motion.a>
             </div>
 
             <div className="bg">
