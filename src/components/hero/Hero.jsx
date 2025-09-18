@@ -143,7 +143,11 @@ const Hero = () => {
                 <Speech />
 
                 {/* CERTIFICATE */}
-                <motion.div className="certificate">
+                <motion.div
+                    className="certificate"
+                    animate={{ opacity: [0, 1] }}
+                    transition={{ duration: 1 }}
+                >
                     <img src="/certificate.png" alt="" />
                     LMA CERTIFICED<br />
                     PROFESSIONAL<br />
