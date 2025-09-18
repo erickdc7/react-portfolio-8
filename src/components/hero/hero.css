@@ -199,6 +199,10 @@
     height: 100%;
   }
 
+  .awards {
+    width: 60%;
+  }
+
   .bubbleContainer {
     width: 100%;
   }
