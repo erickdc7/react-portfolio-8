@@ -155,7 +155,17 @@ const Hero = () => {
                 </motion.div>
 
                 {/* CONTACT BUTTON */}
-                <motion.a href="/#contact" className="contactLink">
+                <motion.a
+                    href="/#contact"
+                    className="contactLink"
+                    animate={{
+                        x: [200, 0],
+                        opacity: [0, 1]
+                    }}
+                    transition={{
+                        duration: 2,
+                    }}
+                >
                     <div className="contactButton">
                         <svg viewBox="0 0 200 200" width="150" height="150">
                             <circle cx="100" cy="100" r="90" fill="pink" />
