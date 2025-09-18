@@ -194,4 +194,8 @@
     top: auto;
     bottom: 0;
   }
+
+  .hImg {
+    height: 100%;
+  }
 }
