@@ -248,4 +248,8 @@
   .awards {
     width: 100%;
   }
+
+  .awardList {
+    justify-content: center;
+  }
 }
