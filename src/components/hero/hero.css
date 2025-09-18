@@ -244,4 +244,8 @@
   .hTitle {
     font-size: 48px;
   }
+
+  .awards {
+    width: 100%;
+  }
 }
