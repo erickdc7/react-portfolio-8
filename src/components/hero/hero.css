@@ -198,4 +198,8 @@
   .hImg {
     height: 100%;
   }
+
+  .bubbleContainer {
+    width: 100%;
+  }
 }
