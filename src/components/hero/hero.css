@@ -235,6 +235,12 @@
     width: 100%;
   }
 
+  .hSection.left {
+    align-items: center;
+    text-align: center;
+    gap: 36px;
+  }
+
   .hTitle {
     font-size: 48px;
   }
