@@ -131,7 +131,10 @@ const Hero = () => {
                         <img src="/youtube.png" alt="" />
                     </motion.a>
 
-                    <motion.div className="followTextContainer">
+                    <motion.div
+                        variants={followVariants}
+                        className="followTextContainer"
+                    >
                         <div className="followText">FOLLOW ME</div>
                     </motion.div>
                 </motion.div>
