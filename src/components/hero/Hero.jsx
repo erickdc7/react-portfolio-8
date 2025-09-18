@@ -143,12 +143,12 @@ const Hero = () => {
                 <Speech />
 
                 {/* CERTIFICATE */}
-                <div className="certificate">
+                <motion.div className="certificate">
                     <img src="/certificate.png" alt="" />
                     LMA CERTIFICED<br />
                     PROFESSIONAL<br />
                     UI DESIGNER
-                </div>
+                </motion.div>
 
                 {/* CONTACT BUTTON */}
                 <a href="/#contact" className="contactLink">
