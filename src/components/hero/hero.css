@@ -252,4 +252,10 @@
   .awardList {
     justify-content: center;
   }
+
+  .follow,
+  .bubbleContainer,
+  .certificate {
+    display: none;
+  }
 }
