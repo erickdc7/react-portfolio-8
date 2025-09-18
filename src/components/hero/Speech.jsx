@@ -1,4 +1,5 @@
 import { TypeAnimation } from 'react-type-animation';
+import { motion } from 'motion/react';
 
 const Speech = () => {
     return (
