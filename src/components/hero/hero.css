@@ -199,6 +199,10 @@
     height: 100%;
   }
 
+  .hTitle {
+    font-size: 88px;
+  }
+
   .awards {
     width: 60%;
   }
