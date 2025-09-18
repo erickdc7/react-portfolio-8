@@ -223,8 +223,12 @@
 }
 
 @media screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+
   .bg {
-    height: 50%;
+    height: 60%;
   }
 
   .hTitle {
