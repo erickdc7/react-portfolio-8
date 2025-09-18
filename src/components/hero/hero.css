@@ -253,6 +253,10 @@
     justify-content: center;
   }
 
+  .hSection.right {
+    justify-content: end;
+  }
+
   .follow,
   .bubbleContainer,
   .certificate {
