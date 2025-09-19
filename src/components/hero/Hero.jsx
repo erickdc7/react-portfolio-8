@@ -3,6 +3,7 @@ import "./hero.css"
 import Speech from "./Speech"
 import { motion } from "motion/react"
 import Shape from "./Shape"
+import { Suspense } from "react"
 
 const awardVariants = {
     initial: {
@@ -215,7 +216,9 @@ const Hero = () => {
             <div className="bg">
                 {/* 3D */}
                 <Canvas>
-                    <Shape />
+                    <Suspense>
+                        <Shape />
+                    </Suspense>
                 </Canvas>
 
                 <div className="hImg">
