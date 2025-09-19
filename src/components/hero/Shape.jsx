@@ -12,6 +12,7 @@ const Shape = () => {
                 />
             </Sphere>
             <ambientLight intensity={2} />
+            <directionalLight position={[3, 2, 1]} />
         </>
     )
 }
