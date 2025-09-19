@@ -11,6 +11,7 @@ const Shape = () => {
                     speed={2}
                 />
             </Sphere>
+            <ambientLight intensity={2} />
         </>
     )
 }
