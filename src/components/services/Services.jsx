@@ -2,7 +2,11 @@ import "./services.css"
 
 const Services = () => {
     return (
-        <div className="services">Services</div>
+        <div className="services">
+            <div className="sSection">
+
+            </div>
+        </div>
     )
 }
 
