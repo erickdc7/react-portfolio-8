@@ -2,6 +2,7 @@ import { Canvas } from "@react-three/fiber"
 import "./hero.css"
 import Speech from "./Speech"
 import { motion } from "motion/react"
+import Shape from "./Shape"
 
 const awardVariants = {
     initial: {
@@ -214,7 +215,7 @@ const Hero = () => {
             <div className="bg">
                 {/* 3D */}
                 <Canvas>
-
+                    <Shape />
                 </Canvas>
 
                 <div className="hImg">
