@@ -7,7 +7,7 @@ const Services = () => {
 
             </div>
 
-            <div className="sSection">
+            <div className="sSection right">
 
             </div>
         </div>
