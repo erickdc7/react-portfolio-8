@@ -1,3 +1,4 @@
+import { Canvas } from "@react-three/fiber"
 import "./hero.css"
 import Speech from "./Speech"
 import { motion } from "motion/react"
@@ -212,6 +213,10 @@ const Hero = () => {
 
             <div className="bg">
                 {/* 3D */}
+                <Canvas>
+
+                </Canvas>
+
                 <div className="hImg">
                     <img src="/hero.png" alt="" />
                 </div>
