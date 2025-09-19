@@ -6,6 +6,10 @@ const Services = () => {
             <div className="sSection">
 
             </div>
+
+            <div className="sSection">
+
+            </div>
         </div>
     )
 }
