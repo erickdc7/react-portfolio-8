@@ -1,4 +1,5 @@
 import "./services.css"
+import ComputerModelContainer from "../computerModel/ComputerModelContainer"
 
 const Services = () => {
     return (
@@ -8,7 +9,7 @@ const Services = () => {
             </div>
 
             <div className="sSection right">
-
+                <ComputerModelContainer />
             </div>
         </div>
     )
