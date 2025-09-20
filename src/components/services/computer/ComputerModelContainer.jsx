@@ -6,7 +6,9 @@ import { OrbitControls, PerspectiveCamera, Stage } from "@react-three/drei";
 const ComputerModelContainer = () => {
     return (
         <Canvas>
+            <Suspense fallback="loading...">
 
+            </Suspense>
         </Canvas>
     );
 };
