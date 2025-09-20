@@ -5,8 +5,10 @@ import { OrbitControls, PerspectiveCamera, Stage } from "@react-three/drei";
 
 const ComputerModelContainer = () => {
     return (
-   
-  );
+        <Canvas>
+
+        </Canvas>
+    );
 };
 
 export default ComputerModelContainer;
