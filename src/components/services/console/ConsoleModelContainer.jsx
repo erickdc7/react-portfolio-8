@@ -3,7 +3,7 @@ import { Suspense } from "react";
 import { ComputerModel } from "./ConsoleModel";
 import { OrbitControls, PerspectiveCamera, Stage } from "@react-three/drei";
 
-const ComputerModelContainer = () => {
+const ConsoleModelContainer = () => {
     return (
         <Canvas>
             <Suspense fallback="loading...">
@@ -17,4 +17,4 @@ const ComputerModelContainer = () => {
     );
 };
 
-export default ComputerModelContainer;
+export default ConsoleModelContainer;
