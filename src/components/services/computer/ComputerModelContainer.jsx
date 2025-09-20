@@ -10,6 +10,7 @@ const ComputerModelContainer = () => {
                 <Stage environment="night" intensity={0.5}>
                     <ComputerModel />
                 </Stage>
+                <OrbitControls enableZoom={false} autoRotate />
             </Suspense>
         </Canvas>
     );
