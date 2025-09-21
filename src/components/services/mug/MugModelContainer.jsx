@@ -1,6 +1,6 @@
 import { Canvas } from "@react-three/fiber";
 import { Suspense } from "react";
-import { ComputerModel } from "./ComputerModel";
+import { ComputerModel } from "./MugModel";
 import { OrbitControls, PerspectiveCamera, Stage } from "@react-three/drei";
 
 const ComputerModelContainer = () => {
