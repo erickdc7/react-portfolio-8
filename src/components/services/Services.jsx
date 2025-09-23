@@ -59,7 +59,13 @@ const Services = () => {
             <div className="sSection left">
                 <h1 className="sTitle">How do I help?</h1>
                 <div className="serviceList">
-                    <div className="section"></div>
+                    <div className="section">
+                        {
+                            services.map((service) => (
+                                
+                            ))
+                        }
+                    </div>
                 </div>
             </div>
 
