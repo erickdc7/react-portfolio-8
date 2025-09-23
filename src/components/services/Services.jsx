@@ -6,7 +6,9 @@ const Services = () => {
         <div className="services">
             <div className="sSection left">
                 <h1 className="sTitle">How do I help?</h1>
-                <div className="serviceList"></div>
+                <div className="serviceList">
+                    <div className="section"></div>
+                </div>
             </div>
 
             <div className="sSection right">
