@@ -1,5 +1,6 @@
 import "./services.css"
 import ComputerModelContainer from "../computerModel/ComputerModelContainer"
+import Counter from "./Counter"
 
 const textVariants = {
     initial: {
@@ -75,7 +76,9 @@ const Services = () => {
                     }
                 </div>
 
-                <div className="counterList"></div>
+                <div className="counterList">
+                    <Counter />
+                </div>
             </div>
 
             <div className="sSection right">
