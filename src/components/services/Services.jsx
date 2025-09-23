@@ -59,22 +59,20 @@ const Services = () => {
             <div className="sSection left">
                 <h1 className="sTitle">How do I help?</h1>
                 <div className="serviceList">
-                    <div className="section">
-                        {
-                            services.map((service) => (
-                                <div className="service" key={service.id}>
-                                    <div className="serviceIcon">
-                                        <img src={service.img} alt={service.title} />
-                                    </div>
-
-                                    <div className="serviceInfo">
-                                        <h2>{service.title}</h2>
-                                        <h3>{service.counter} Projects</h3>
-                                    </div>
+                    {
+                        services.map((service) => (
+                            <div className="service" key={service.id}>
+                                <div className="serviceIcon">
+                                    <img src={service.img} alt={service.title} />
                                 </div>
-                            ))
-                        }
-                    </div>
+
+                                <div className="serviceInfo">
+                                    <h2>{service.title}</h2>
+                                    <h3>{service.counter} Projects</h3>
+                                </div>
+                            </div>
+                        ))
+                    }
                 </div>
             </div>
 
