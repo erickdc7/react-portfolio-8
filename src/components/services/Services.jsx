@@ -17,6 +17,10 @@ const textVariants = {
     },
 }
 
+const listVariants = {
+
+}
+
 const Services = () => {
     return (
         <div className="services">
