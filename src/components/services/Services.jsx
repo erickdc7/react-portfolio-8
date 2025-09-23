@@ -32,9 +32,14 @@ const listVariants = {
     },
 }
 
-const services = {
-
-}
+const services = [
+    {
+        id: 1,
+        img: "/service1.png",
+        title: "Web Development",
+        counter: 35,
+    },
+]
 
 const Services = () => {
     return (
