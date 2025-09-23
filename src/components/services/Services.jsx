@@ -66,6 +66,8 @@ const Services = () => {
                                     <div className="serviceIcon">
                                         <img src={service.img} alt={service.title} />
                                     </div>
+
+                                    <div className="serviceInfo"></div>
                                 </div>
                             ))
                         }
