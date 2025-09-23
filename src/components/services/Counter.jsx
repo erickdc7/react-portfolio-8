@@ -1,6 +1,6 @@
 const Counter = () => {
     return (
-        <div></div>
+        <div className="counter"></div>
     )
 }
 
