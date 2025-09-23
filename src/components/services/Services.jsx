@@ -1,6 +1,10 @@
 import "./services.css"
 import ComputerModelContainer from "../computerModel/ComputerModelContainer"
 
+const textVariants {
+    
+}
+
 const Services = () => {
     return (
         <div className="services">
