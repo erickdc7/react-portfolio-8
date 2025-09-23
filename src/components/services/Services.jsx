@@ -69,7 +69,7 @@ const Services = () => {
 
                                     <div className="serviceInfo">
                                         <h2>{service.title}</h2>
-                                        <h3>{service.counter}</h3>
+                                        <h3>{service.counter} Projects</h3>
                                     </div>
                                 </div>
                             ))
