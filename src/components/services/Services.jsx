@@ -68,7 +68,7 @@ const Services = () => {
                                     </div>
 
                                     <div className="serviceInfo">
-                                        <h2></h2>
+                                        <h2>{service.title}</h2>
                                     </div>
                                 </div>
                             ))
