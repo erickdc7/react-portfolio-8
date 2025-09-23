@@ -1,8 +1,12 @@
 import "./services.css"
 import ComputerModelContainer from "../computerModel/ComputerModelContainer"
 
-const textVariants {
-    
+const textVariants = {
+    initial: {
+        x: -100,
+        y: -100,
+        opacity: 0,
+    },
 }
 
 const Services = () => {
