@@ -15,3 +15,9 @@
   font-size: 88px;
   margin-bottom: 24px;
 }
+
+.serviceList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
