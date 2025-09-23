@@ -18,7 +18,10 @@ const textVariants = {
 }
 
 const listVariants = {
-
+    initial: {
+        x: -100,
+        opacity: 0,
+    },
 }
 
 const Services = () => {
