@@ -65,3 +65,7 @@
 .service:nth-child(2) .serviceIcon {
   background-color: #025656;
 }
+
+.service:nth-child(2) .serviceIcon {
+  background-color: #6c5c0c;
+}
