@@ -57,3 +57,7 @@
   font-size: 13px;
   font-weight: 300;
 }
+
+.service:nth-child(1) .serviceIcon {
+  background-color: #dd4c62;
+}
