@@ -32,6 +32,10 @@ const listVariants = {
     },
 }
 
+const services = {
+
+}
+
 const Services = () => {
     return (
         <div className="services">
