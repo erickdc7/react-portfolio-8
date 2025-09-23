@@ -46,3 +46,9 @@
   width: 24px;
   height: 24px;
 }
+
+.serviceInfo h2 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
