@@ -62,7 +62,7 @@ const Services = () => {
                     <div className="section">
                         {
                             services.map((service) => (
-                                
+                                <div className="section"></div>
                             ))
                         }
                     </div>
