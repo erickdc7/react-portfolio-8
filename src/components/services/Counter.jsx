@@ -1,4 +1,4 @@
-const Counter = () => {
+const Counter = ({ from, to, text }) => {
     return (
         <div className="counter">
             <h1>29</h1>
