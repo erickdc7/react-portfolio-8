@@ -78,7 +78,7 @@ const Services = () => {
 
                 <div className="counterList">
                     <Counter from={0} to={104} text="Projects Completed" />
-                    <Counter from={0} to={104} text="Happy Clients" />
+                    <Counter from={0} to={72} text="Happy Clients" />
                 </div>
             </div>
 
