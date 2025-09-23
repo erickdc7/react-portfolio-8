@@ -39,6 +39,12 @@ const services = [
         title: "Web Development",
         counter: 35,
     },
+    {
+        id: 2,
+        img: "/service2.png",
+        title: "Product Design",
+        counter: 23,
+    },
 ]
 
 const Services = () => {
