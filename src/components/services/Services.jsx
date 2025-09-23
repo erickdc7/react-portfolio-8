@@ -74,6 +74,8 @@ const Services = () => {
                         ))
                     }
                 </div>
+
+                <div className="counterList"></div>
             </div>
 
             <div className="sSection right">
