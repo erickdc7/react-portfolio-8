@@ -61,6 +61,7 @@ const Services = () => {
             <div className="sSection left">
                 <motion.h1
                     className="sTitle"
+                    variants={textVariants}
                 >
                     How do I help?
                 </motion.h1>
