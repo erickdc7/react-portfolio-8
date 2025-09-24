@@ -1,7 +1,7 @@
 import "./services.css"
 import ComputerModelContainer from "../computerModel/ComputerModelContainer"
 import Counter from "./Counter"
-import { motion } from "motion/react"
+import { motion, useInView } from "motion/react"
 
 const textVariants = {
     initial: {
@@ -56,6 +56,8 @@ const services = [
 ]
 
 const Services = () => {
+    const isInView = useInView()
+
     return (
         <div className="services">
             <div className="sSection left">
