@@ -114,4 +114,9 @@
   .sTitle {
     font-size: 48px;
   }
+
+  .service,
+  .counterList {
+    width: 100%;
+  }
 }
