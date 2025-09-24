@@ -70,6 +70,14 @@
   background-color: #6c5c0c;
 }
 
+.counterList {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
 .counter {
   display: flex;
 }
