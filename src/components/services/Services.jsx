@@ -2,6 +2,7 @@ import "./services.css"
 import ComputerModelContainer from "../computerModel/ComputerModelContainer"
 import Counter from "./Counter"
 import { motion, useInView } from "motion/react"
+import { useRef } from "react"
 
 const textVariants = {
     initial: {
@@ -56,6 +57,7 @@ const services = [
 ]
 
 const Services = () => {
+    const ref = useRef()
     const isInView = useInView()
 
     return (
