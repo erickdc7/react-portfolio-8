@@ -104,4 +104,8 @@
   .sTitle {
     font-size: 128px;
   }
+
+  .service {
+    width: 100%;
+  }
 }
