@@ -130,4 +130,8 @@
   .sSection {
     width: 100%;
   }
+
+  .sSection.right {
+    display: none;
+  }
 }
