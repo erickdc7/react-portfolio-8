@@ -59,7 +59,11 @@ const Services = () => {
     return (
         <div className="services">
             <div className="sSection left">
-                <motion.h1 className="sTitle">How do I help?</motion.h1>
+                <motion.h1
+                    className="sTitle"
+                >
+                    How do I help?
+                </motion.h1>
 
                 <div className="serviceList">
                     {
