@@ -58,7 +58,7 @@ const services = [
 
 const Services = () => {
     const ref = useRef()
-    const isInView = useInView()
+    const isInView = useInView(ref, { margin: "-200px" })
 
     return (
         <div className="services" ref={ref}>
