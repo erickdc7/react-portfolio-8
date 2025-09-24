@@ -61,13 +61,12 @@ const Services = () => {
     const isInView = useInView()
 
     return (
-        <div className="services"  ref={ref}>
+        <div className="services" ref={ref}>
             <div className="sSection left">
                 <motion.h1
                     className="sTitle"
                     variants={textVariants}
-                    initial="initial"
-                    animate="animate"
+                    animate={isInView ? "animate" : "initial"}
                 >
                     How do I help?
                 </motion.h1>
