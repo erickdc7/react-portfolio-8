@@ -1,6 +1,7 @@
 import "./services.css"
 import ComputerModelContainer from "../computerModel/ComputerModelContainer"
 import Counter from "./Counter"
+import { motion } from "motion/react"
 
 const textVariants = {
     initial: {
