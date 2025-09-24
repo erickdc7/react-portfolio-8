@@ -59,7 +59,8 @@ const Services = () => {
     return (
         <div className="services">
             <div className="sSection left">
-                <h1 className="sTitle">How do I help?</h1>
+                <motion.h1 className="sTitle">How do I help?</motion.h1>
+
                 <div className="serviceList">
                     {
                         services.map((service) => (
