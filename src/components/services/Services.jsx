@@ -61,7 +61,7 @@ const Services = () => {
     const isInView = useInView()
 
     return (
-        <div className="services">
+        <div className="services"  ref={ref}>
             <div className="sSection left">
                 <motion.h1
                     className="sTitle"
