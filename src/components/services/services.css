@@ -92,3 +92,10 @@
 .counter p {
   font-size: 13px;
 }
+
+@media screen and (max-width: 1536px) {
+  .service,
+  .counterList {
+    width: 70%;
+  }
+}
