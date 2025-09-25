@@ -1,10 +1,19 @@
 import { useInView } from "motion/react"
-import { useRef, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 
 const Counter = ({ from, to, text }) => {
     const [count, setCount] = useState(from)
     const ref = useRef()
     const isInView = useInView(ref)
+
+    useEffect(() => {
+      first
+    
+      return () => {
+        second
+      }
+    }, [third])
+    
 
     return (
         <div className="counter" ref={ref}>
