@@ -5,7 +5,7 @@ const Counter = ({ from, to, text }) => {
     const ref = useRef()
 
     return (
-        <div className="counter">
+        <div className="counter" ref={ref}>
             <h1>{to}+</h1>
             <p>{text}</p>
         </div>
