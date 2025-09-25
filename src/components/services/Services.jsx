@@ -78,7 +78,10 @@ const Services = () => {
                 >
                     {
                         services.map((service) => (
-                            <motion.div className="service" key={service.id}>
+                            <motion.div
+                                className="service"
+                                key={service.id}
+                            >
                                 <div className="serviceIcon">
                                     <img src={service.img} alt={service.title} />
                                 </div>
