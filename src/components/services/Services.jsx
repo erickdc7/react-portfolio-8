@@ -73,6 +73,7 @@ const Services = () => {
 
                 <motion.div
                     className="serviceList"
+                    variants={textVariants}
                 >
                     {
                         services.map((service) => (
