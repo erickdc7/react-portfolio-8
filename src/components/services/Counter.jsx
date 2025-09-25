@@ -7,13 +7,13 @@ const Counter = ({ from, to, text }) => {
     const isInView = useInView(ref)
 
     useEffect(() => {
-      first
-    
-      return () => {
-        second
-      }
-    }, [third])
-    
+        first
+
+        return () => {
+            second
+        }
+    }, [isInView])
+
 
     return (
         <div className="counter" ref={ref}>
