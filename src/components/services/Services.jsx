@@ -105,7 +105,9 @@ const Services = () => {
             </div>
 
             <div className="sSection right">
-                
+                {
+                    currentServiceId === 1 ? (<ComputerModelContainer />) : currentServiceId
+                }
             </div>
         </div>
     )
