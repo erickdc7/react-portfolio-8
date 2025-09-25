@@ -71,7 +71,7 @@ const Services = () => {
                     How do I help?
                 </motion.h1>
 
-                <div className="serviceList">
+                <motion.div className="serviceList">
                     {
                         services.map((service) => (
                             <div className="service" key={service.id}>
@@ -86,7 +86,7 @@ const Services = () => {
                             </div>
                         ))
                     }
-                </div>
+                </motion.div>
 
                 <div className="counterList">
                     <Counter from={0} to={104} text="Projects Completed" />
