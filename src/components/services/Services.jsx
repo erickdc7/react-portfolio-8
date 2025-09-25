@@ -71,7 +71,9 @@ const Services = () => {
                     How do I help?
                 </motion.h1>
 
-                <motion.div className="serviceList">
+                <motion.div
+                    className="serviceList"
+                >
                     {
                         services.map((service) => (
                             <div className="service" key={service.id}>
