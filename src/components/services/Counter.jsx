@@ -1,3 +1,4 @@
+import { animate } from "motion"
 import { useInView } from "motion/react"
 import { useEffect, useRef, useState } from "react"
 
@@ -7,11 +8,13 @@ const Counter = ({ from, to, text }) => {
     const isInView = useInView(ref)
 
     useEffect(() => {
-        first
-
-        return () => {
-            second
-        }
+        const animation = animate(from, to, {
+            duration: 4,
+            ease: "easeOut",
+            onUpdate: (prev => {
+                setCount(Math.floor(prev));
+            })
+        })
     }, [isInView])
 
 
