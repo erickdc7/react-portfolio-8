@@ -74,6 +74,7 @@ const Services = () => {
                 <motion.div
                     className="serviceList"
                     variants={textVariants}
+                    animate={isInView ? "animate" : "initial"}
                 >
                     {
                         services.map((service) => (
