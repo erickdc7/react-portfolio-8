@@ -17,7 +17,7 @@ const Counter = ({ from, to, text }) => {
         });
 
         return () => animation.cancel();
-    }, [isInView])
+    }, [isInView, from, to])
 
 
     return (
