@@ -105,7 +105,7 @@ const Services = () => {
             </div>
 
             <div className="sSection right">
-                <ComputerModelContainer />
+                
             </div>
         </div>
     )
