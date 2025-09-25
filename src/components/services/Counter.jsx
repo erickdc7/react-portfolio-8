@@ -14,7 +14,9 @@ const Counter = ({ from, to, text }) => {
             onUpdate: (prev => {
                 setCount(Math.floor(prev));
             })
-        })
+        });
+
+        return () => animation.cancel();
     }, [isInView])
 
 
