@@ -2,7 +2,7 @@ import "./services.css"
 import ComputerModelContainer from "../computerModel/ComputerModelContainer"
 import Counter from "./Counter"
 import { motion, useInView } from "motion/react"
-import { useRef } from "react"
+import { useRef, useState } from "react"
 
 const textVariants = {
     initial: {
@@ -57,6 +57,7 @@ const services = [
 ]
 
 const Services = () => {
+    const [currentServiceId, setCurrentServiceId] = useState(1)
     const ref = useRef()
     const isInView = useInView(ref, { margin: "-200px" })
 
