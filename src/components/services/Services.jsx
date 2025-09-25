@@ -83,6 +83,7 @@ const Services = () => {
                                 className="service"
                                 key={service.id}
                                 variants={textVariants}
+                                onClick={() => setCurrentServiceId(service.id)}
                             >
                                 <div className="serviceIcon">
                                     <img src={service.img} alt={service.title} />
