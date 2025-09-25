@@ -81,6 +81,7 @@ const Services = () => {
                             <motion.div
                                 className="service"
                                 key={service.id}
+                                variants={textVariants}
                             >
                                 <div className="serviceIcon">
                                     <img src={service.img} alt={service.title} />
