@@ -48,7 +48,7 @@ const ListItem = ({ item }) => {
             </div>
 
             <div className="pText">
-                <h1></h1>
+                <h1>{item.title}</h1>
                 <p></p>
             </div>
         </div>
