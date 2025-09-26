@@ -43,7 +43,9 @@ const items = [
 const ListItem = ({ item }) => {
     return (
         <div className="pItem">
+            <div className="pImg">
 
+            </div>
         </div>
     )
 }
