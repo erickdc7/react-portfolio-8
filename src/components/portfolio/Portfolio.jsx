@@ -42,7 +42,10 @@ const items = [
 
 const Portfolio = () => {
     return (
-        <div className="portfolio">Portfolio</div>
+        <div className="portfolio">
+            <div className="pList">
+            </div>
+        </div>
     )
 }
 
