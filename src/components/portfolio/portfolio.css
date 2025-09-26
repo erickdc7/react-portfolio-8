@@ -39,3 +39,7 @@
 .pText h1 {
   font-size: 56px;
 }
+
+.pText p {
+  font-weight: 300;
+}
