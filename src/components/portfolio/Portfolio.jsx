@@ -49,7 +49,7 @@ const ListItem = ({ item }) => {
 
             <div className="pText">
                 <h1>{item.title}</h1>
-                <p></p>
+                <p>{item.desc}</p>
             </div>
         </div>
     )
