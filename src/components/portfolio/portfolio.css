@@ -17,6 +17,10 @@
   gap: 100px;
 }
 
+.pItem:nth-child(1) {
+  background: linear-gradient(to right, #12071f, #210b3a);
+}
+
 .pImg {
   width: 40%;
   border-radius: 20px;
