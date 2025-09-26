@@ -64,7 +64,7 @@ const Portfolio = () => {
             <div className="pList">
                 {
                     items.map(item => (
-
+                        <ListItem item={item} />
                     ))
                 }
             </div>
