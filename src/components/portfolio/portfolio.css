@@ -1,2 +1,8 @@
 .portfolio {
 }
+
+.pList {
+  display: flex;
+  height: 100vh;
+  width: max-content;
+}
