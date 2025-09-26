@@ -16,3 +16,9 @@
   justify-content: center;
   gap: 100px;
 }
+
+.pImg {
+  width: 40%;
+  border-radius: 20px;
+  overflow: hidden;
+}
