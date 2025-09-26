@@ -46,6 +46,10 @@ const ListItem = ({ item }) => {
             <div className="pImg">
 
             </div>
+
+            <div className="pText">
+
+            </div>
         </div>
     )
 }
