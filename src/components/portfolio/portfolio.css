@@ -22,3 +22,9 @@
   border-radius: 20px;
   overflow: hidden;
 }
+
+.pImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
