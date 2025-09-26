@@ -44,7 +44,7 @@ const ListItem = ({ item }) => {
     return (
         <div className="pItem">
             <div className="pImg">
-
+                <img src={item.img} alt="" />
             </div>
 
             <div className="pText">
