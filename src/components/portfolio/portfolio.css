@@ -35,3 +35,7 @@
   flex-direction: column;
   gap: 24px;
 }
+
+.pText h1 {
+  font-size: 56px;
+}
