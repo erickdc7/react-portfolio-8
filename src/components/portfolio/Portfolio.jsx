@@ -51,7 +51,7 @@ const ListItem = ({ item }) => {
                 <h1>{item.title}</h1>
                 <p>{item.desc}</p>
                 <a href="">
-                    <button></button>
+                    <button>View Project</button>
                 </a>
             </div>
         </div>
