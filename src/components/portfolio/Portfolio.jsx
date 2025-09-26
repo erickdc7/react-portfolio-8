@@ -40,13 +40,21 @@ const items = [
     },
 ];
 
+const ListItem = ({ item }) => {
+    return (
+        <div className="pItem">
+
+        </div>
+    )
+}
+
 const Portfolio = () => {
     return (
         <div className="portfolio">
             <div className="pList">
                 {
-                    items.map(item=>(
-                        
+                    items.map(item => (
+
                     ))
                 }
             </div>
