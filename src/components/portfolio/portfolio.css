@@ -43,3 +43,12 @@
 .pText p {
   font-weight: 300;
 }
+
+.pText button {
+  background-color: pink;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}
