@@ -44,6 +44,11 @@ const Portfolio = () => {
     return (
         <div className="portfolio">
             <div className="pList">
+                {
+                    items.map(item=>(
+                        
+                    ))
+                }
             </div>
         </div>
     )
