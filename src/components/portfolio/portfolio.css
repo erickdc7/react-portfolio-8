@@ -4,6 +4,7 @@
 }
 
 .pList {
+  position: sticky;
   display: flex;
   height: 100vh;
   width: max-content;
