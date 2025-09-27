@@ -1,5 +1,5 @@
 import "./portfolio.css"
-import { motion } from "motion/react";
+import { motion, useScroll } from "motion/react";
 
 const items = [
     {
@@ -60,6 +60,8 @@ const ListItem = ({ item }) => {
 }
 
 const Portfolio = () => {
+    useScroll
+
     return (
         <div className="portfolio">
             <motion.div className="pList">
