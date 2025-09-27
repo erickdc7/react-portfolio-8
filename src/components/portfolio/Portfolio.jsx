@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import "./portfolio.css"
 import { motion, useScroll, useTransform } from "motion/react";
 
@@ -61,6 +61,7 @@ const ListItem = ({ item }) => {
 }
 
 const Portfolio = () => {
+
     const ref = useRef()
 
     const { scrollYProgress } = useScroll({ target: ref })
