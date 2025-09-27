@@ -60,7 +60,7 @@ const ListItem = ({ item }) => {
 }
 
 const Portfolio = () => {
-    useScroll
+    const { } = useScroll()
 
     return (
         <div className="portfolio">
