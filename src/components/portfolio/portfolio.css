@@ -33,6 +33,10 @@
   background: linear-gradient(to right, #220345, #2a0159);
 }
 
+.pItem:nth-child(5) {
+  background: linear-gradient(to right, #2a0159, #12071f);
+}
+
 .pImg {
   width: 40%;
   border-radius: 20px;
