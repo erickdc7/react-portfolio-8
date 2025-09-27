@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import "./portfolio.css"
 import { motion, useScroll, useTransform } from "motion/react";
 
@@ -64,6 +64,12 @@ const Portfolio = () => {
     const [containerDistance, setContainerDistance] = useState(0)
 
     const ref = useRef()
+
+    useEffect(() => {
+        if (ref.current) {
+            const rect = ref.current.getBoundingClientRect();
+        }
+    }, [])
 
 
     const { scrollYProgress } = useScroll({ target: ref })
