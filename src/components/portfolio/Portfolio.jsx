@@ -61,6 +61,7 @@ const ListItem = ({ item }) => {
 }
 
 const Portfolio = () => {
+    const [containerDistance, setContainerDistance] = useState(0)
 
     const ref = useRef()
 
