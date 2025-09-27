@@ -1,4 +1,6 @@
 .portfolio {
+  height: 500vh;
+  position: relative;
 }
 
 .pList {
