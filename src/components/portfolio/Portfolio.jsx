@@ -1,4 +1,5 @@
 import "./portfolio.css"
+import { motion } from "motion/react";
 
 const items = [
     {
