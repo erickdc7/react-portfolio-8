@@ -66,7 +66,7 @@ const Portfolio = () => {
     const { } = useScroll()
 
     return (
-        <div className="portfolio">
+        <div className="portfolio" ref={ref}>
             <motion.div className="pList">
                 {
                     items.map((item) => (
