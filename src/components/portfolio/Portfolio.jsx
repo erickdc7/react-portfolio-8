@@ -61,13 +61,13 @@ const ListItem = ({ item }) => {
 const Portfolio = () => {
     return (
         <div className="portfolio">
-            <div className="pList">
+            <motion.div className="pList">
                 {
                     items.map((item) => (
                         <ListItem item={item} key={item.id} />
                     ))
                 }
-            </div>
+            </motion.div>
             <section />
             <section />
             <section />
