@@ -29,6 +29,10 @@
   background: linear-gradient(to right, #27084a, #220345);
 }
 
+.pItem:nth-child(4) {
+  background: linear-gradient(to right, #220345, #2a0159);
+}
+
 .pImg {
   width: 40%;
   border-radius: 20px;
