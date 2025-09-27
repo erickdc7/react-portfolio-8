@@ -65,7 +65,11 @@ const Portfolio = () => {
 
     const { scrollYProgress } = useScroll({ target: ref })
 
-    const xTranslate = useTransform(scrollYProgress, [0, 1], [0, -window.innerWidth * items.length])
+    const xTranslate = useTransform(
+        scrollYProgress,
+        [0, 1],
+        [0, -window.innerWidth * items.length]
+    )
 
     return (
         <div className="portfolio" ref={ref}>
