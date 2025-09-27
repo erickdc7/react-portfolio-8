@@ -61,7 +61,7 @@ const ListItem = ({ item }) => {
 }
 
 const Portfolio = () => {
- 
+    const ref = useRef()
 
     const { } = useScroll()
 
