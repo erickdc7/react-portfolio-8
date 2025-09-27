@@ -84,6 +84,8 @@ const Portfolio = () => {
     return (
         <div className="portfolio" ref={ref}>
             <motion.div className="pList">
+                <div className="empty" />
+
                 {
                     items.map((item) => (
                         <ListItem item={item} key={item.id} />
