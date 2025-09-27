@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import "./portfolio.css"
 import { motion, useScroll } from "motion/react";
 
@@ -60,6 +61,8 @@ const ListItem = ({ item }) => {
 }
 
 const Portfolio = () => {
+ 
+
     const { } = useScroll()
 
     return (
