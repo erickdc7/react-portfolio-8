@@ -65,6 +65,7 @@ const Portfolio = () => {
 
     const ref = useRef()
 
+
     const { scrollYProgress } = useScroll({ target: ref })
 
     const xTranslate = useTransform(
