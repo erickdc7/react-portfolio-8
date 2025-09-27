@@ -68,6 +68,7 @@ const Portfolio = () => {
     useEffect(() => {
         if (ref.current) {
             const rect = ref.current.getBoundingClientRect();
+            setContainerDistance(rect.left);
         }
     }, [])
 
