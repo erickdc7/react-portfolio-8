@@ -63,7 +63,7 @@ const ListItem = ({ item }) => {
 const Portfolio = () => {
     const ref = useRef()
 
-    const { } = useScroll()
+    const { scrollYProgress } = useScroll({ target: ref })
 
     return (
         <div className="portfolio" ref={ref}>
