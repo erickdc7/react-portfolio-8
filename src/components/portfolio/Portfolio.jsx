@@ -63,7 +63,7 @@ const ListItem = ({ item }) => {
                 animate={isInView ? "animate" : "initial"}
             >
                 <motion.h1>{item.title}</motion.h1>
-                <p>{item.desc}</p>
+                <motion.p>{item.desc}</motion.p>
                 <a href={item.link}>
                     <button>View Project</button>
                 </a>
