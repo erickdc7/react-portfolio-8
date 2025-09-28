@@ -61,7 +61,10 @@ const ListItem = ({ item }) => {
 }
 
 const imgVariants = {
-    
+    initial: {
+        x: -500,
+        y: 500,
+    }
 }
 
 const Portfolio = () => {
