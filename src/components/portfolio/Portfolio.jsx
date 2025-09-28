@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import "./portfolio.css"
-import { motion, useScroll, useTransform } from "motion/react";
+import { motion, useInView, useScroll, useTransform } from "motion/react";
 import { transition } from "three/examples/jsm/tsl/display/TransitionNode.js";
 
 const items = [
@@ -45,6 +45,8 @@ const items = [
 
 const ListItem = ({ item }) => {
     const ref = useRef();
+
+    const isInView = useInView(ref, { margin: "-100px" })
 
     return (
         <div className="pItem" ref={ref}>
