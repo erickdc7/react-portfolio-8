@@ -60,6 +60,10 @@ const ListItem = ({ item }) => {
     )
 }
 
+const imgVariants = {
+    
+}
+
 const Portfolio = () => {
     const [containerDistance, setContainerDistance] = useState(0)
 
