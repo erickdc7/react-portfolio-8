@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import "./portfolio.css"
 import { motion, useInView, useScroll, useTransform } from "motion/react";
-import { transition } from "three/examples/jsm/tsl/display/TransitionNode.js";
 
 const items = [
     {
@@ -50,9 +49,9 @@ const ListItem = ({ item }) => {
 
     return (
         <div className="pItem" ref={ref}>
-            <div className="pImg">
+            <motion.div className="pImg">
                 <img src={item.img} alt="" />
-            </div>
+            </motion.div>
 
             <div className="pText">
                 <h1>{item.title}</h1>
