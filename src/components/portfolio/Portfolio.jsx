@@ -64,6 +64,7 @@ const imgVariants = {
     initial: {
         x: -500,
         y: 500,
+        opacity: 0,
     }
 }
 
