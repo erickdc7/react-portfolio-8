@@ -51,6 +51,7 @@ const ListItem = ({ item }) => {
         <div className="pItem" ref={ref}>
             <motion.div
                 className="pImg"
+                variants={imgVariants}
             >
                 <img src={item.img} alt="" />
             </motion.div>
