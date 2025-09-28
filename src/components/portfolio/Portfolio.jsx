@@ -156,6 +156,7 @@ const Portfolio = () => {
             <section />
             <section />
             <section />
+            <div className="pProgress"></div>
         </div>
     )
 }
