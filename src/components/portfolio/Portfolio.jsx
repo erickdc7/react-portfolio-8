@@ -86,7 +86,7 @@ const Portfolio = () => {
             <motion.div className="pList" style={{ x: xTranslate }}>
                 <div
                     className="empty"
-                    style={{ width: window.innerWidth - containerDistance, backgroundColor: "pink" }}
+                    style={{ width: window.innerWidth - containerDistance, /* backgroundColor: "pink"  */ }}
                 />
 
                 {
