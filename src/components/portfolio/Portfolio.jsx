@@ -59,7 +59,7 @@ const ListItem = ({ item }) => {
 
             <motion.div
                 className="pText"
-                variants={imgVariants}
+                variants={textVariants}
                 animate={isInView ? "animate" : "initial"}
             >
                 <h1>{item.title}</h1>
