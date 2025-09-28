@@ -41,6 +41,14 @@
   background: linear-gradient(to right, #2a0159, #12071f);
 }
 
+.pProgress {
+  position: sticky;
+  width: 80px;
+  height: 80px;
+  left: 0;
+  bottom: 80%;
+}
+
 .pImg {
   width: 40%;
   border-radius: 20px;
