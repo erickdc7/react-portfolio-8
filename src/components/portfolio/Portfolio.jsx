@@ -64,9 +64,9 @@ const ListItem = ({ item }) => {
             >
                 <motion.h1>{item.title}</motion.h1>
                 <motion.p>{item.desc}</motion.p>
-                <a href={item.link}>
+                <motion.a href={item.link}>
                     <button>View Project</button>
-                </a>
+                </motion.a>
             </motion.div>
         </div>
     )
