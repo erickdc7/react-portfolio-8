@@ -49,7 +49,9 @@ const ListItem = ({ item }) => {
 
     return (
         <div className="pItem" ref={ref}>
-            <motion.div className="pImg">
+            <motion.div
+                className="pImg"
+            >
                 <img src={item.img} alt="" />
             </motion.div>
 
