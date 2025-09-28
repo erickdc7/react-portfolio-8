@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import "./portfolio.css"
-import { motion, useScroll, useTransform } from "motion/react";
+import { motion, stagger, useScroll, useTransform } from "motion/react";
 import { transition } from "three/examples/jsm/tsl/display/TransitionNode.js";
 
 const items = [
@@ -74,6 +74,24 @@ const imgVariants = {
         transition: {
             duration: 0.5,
             ease: "easeInOut",
+        },
+    },
+}
+
+const textVariants = {
+    initial: {
+        x: 500,
+        y: 500,
+        opacity: 0,
+    },
+    animate: {
+        x: 0,
+        y: 0,
+        opacity: 1,
+        transition: {
+            duration: 0.5,
+            ease: "easeInOut",
+            staggerChildren: 0.5,
         },
     },
 }
