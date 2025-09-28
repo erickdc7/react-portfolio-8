@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import "./portfolio.css"
-import { motion, stagger, useScroll, useTransform } from "motion/react";
+import { motion, useScroll, useTransform } from "motion/react";
 import { transition } from "three/examples/jsm/tsl/display/TransitionNode.js";
 
 const items = [
@@ -44,6 +44,8 @@ const items = [
 ];
 
 const ListItem = ({ item }) => {
+    const ref = useRef();
+
     return (
         <div className="pItem">
             <div className="pImg">
