@@ -111,7 +111,7 @@ const textVariants = {
         transition: {
             duration: 0.5,
             ease: "easeInOut",
-            staggerChildren: 0.5,
+            staggerChildren: 0.05,
         },
     },
 }
