@@ -52,6 +52,7 @@ const ListItem = ({ item }) => {
             <motion.div
                 className="pImg"
                 variants={imgVariants}
+                animate={isInView ? "animate" : "initial"}
             >
                 <img src={item.img} alt="" />
             </motion.div>
