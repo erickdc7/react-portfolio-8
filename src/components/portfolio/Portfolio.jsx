@@ -47,7 +47,7 @@ const ListItem = ({ item }) => {
     const ref = useRef();
 
     return (
-        <div className="pItem">
+        <div className="pItem" ref={ref}>
             <div className="pImg">
                 <img src={item.img} alt="" />
             </div>
