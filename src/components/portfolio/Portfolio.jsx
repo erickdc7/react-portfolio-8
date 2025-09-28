@@ -57,13 +57,13 @@ const ListItem = ({ item }) => {
                 <img src={item.img} alt="" />
             </motion.div>
 
-            <div className="pText">
+            <motion.div className="pText">
                 <h1>{item.title}</h1>
                 <p>{item.desc}</p>
                 <a href={item.link}>
                     <button>View Project</button>
                 </a>
-            </div>
+            </motion.div>
         </div>
     )
 }
