@@ -84,7 +84,10 @@ const Portfolio = () => {
     return (
         <div className="portfolio" ref={ref}>
             <motion.div className="pList">
-                <div className="empty" />
+                <div
+                    className="empty"
+                    style={{ width: window.innerWidth - containerDistance, backgroundColor: "pink" }}
+                />
 
                 {
                     items.map((item) => (
