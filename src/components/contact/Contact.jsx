@@ -8,6 +8,10 @@ const Contact = () => {
                     <h1 className="cTitle">
                         Let`&apos;`s keep in touch
                     </h1>
+
+                    <div className="formItem">
+
+                    </div>
                 </form>
             </div>
 
