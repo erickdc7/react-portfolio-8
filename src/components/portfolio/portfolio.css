@@ -106,4 +106,9 @@
   .pText {
     width: 80%;
   }
+
+  .pProgress {
+    bottom: 100px;
+    left: 100%;
+  }
 }
