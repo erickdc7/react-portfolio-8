@@ -10,7 +10,7 @@ const Contact = () => {
                     </h1>
 
                     <div className="formItem">
-                        <label></label>
+                        <label>Name</label>
                     </div>
                 </form>
             </div>
