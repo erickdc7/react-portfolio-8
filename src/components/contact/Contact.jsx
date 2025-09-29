@@ -23,6 +23,8 @@ const Contact = () => {
                         <label>Message</label>
                         <textarea rows={10} placeholder="Write your message..."></textarea>
                     </div>
+
+                    <button></button>
                 </form>
             </div>
 
