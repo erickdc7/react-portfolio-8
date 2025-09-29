@@ -4,7 +4,9 @@ const Contact = () => {
     return (
         <div className="contact">
             <div className="cSection">
+                <form action="">
 
+                </form>
             </div>
 
             <div className="cSection">
