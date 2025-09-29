@@ -90,3 +90,9 @@
     gap: 50px;
   }
 }
+
+@media screen and (max-width: 1280px) {
+  .pText h1 {
+    font-size: 48px;
+  }
+}
