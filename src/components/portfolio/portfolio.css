@@ -101,4 +101,9 @@
   .pItem {
     flex-direction: column;
   }
+
+  .pImg,
+  .pText {
+    width: 80%;
+  }
 }
