@@ -5,7 +5,7 @@ const Contact = () => {
         <div className="contact">
             <div className="cSection">
                 <form action="">
-
+                    <h1 className="cTitle"></h1>
                 </form>
             </div>
 
