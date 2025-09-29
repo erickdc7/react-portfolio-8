@@ -20,7 +20,7 @@ const Contact = () => {
                     </div>
 
                     <div className="formItem">
-                        <label>Name</label>
+                        <label>Message</label>
                         <input type="text" placeholder="Jhon Doe" />
                     </div>
                 </form>
