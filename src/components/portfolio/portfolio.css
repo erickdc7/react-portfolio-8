@@ -84,3 +84,9 @@
   font-weight: 500;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1536px) {
+  .pItem {
+    gap: 50px;
+  }
+}
