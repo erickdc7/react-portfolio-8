@@ -21,7 +21,7 @@ const Contact = () => {
 
                     <div className="formItem">
                         <label>Message</label>
-                        <input type="text" placeholder="Jhon Doe" />
+                        <textarea rows={10} placeholder="Write your message..."></textarea>
                     </div>
                 </form>
             </div>
