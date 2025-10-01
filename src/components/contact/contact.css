@@ -19,3 +19,10 @@ form {
   flex-direction: column;
   gap: 20px;
 }
+
+input,
+textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+}
