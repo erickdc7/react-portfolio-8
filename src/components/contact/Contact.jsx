@@ -44,10 +44,10 @@ const Contact = () => {
                         <input type="text" placeholder="Jhon Doe" />
                     </motion.div>
 
-                    <div className="formItem">
+                    <motion.div className="formItem">
                         <label>Email</label>
                         <input type="email" placeholder="jhon@gmail.com" />
-                    </div>
+                    </motion.div>
 
                     <div className="formItem">
                         <label>Message</label>
