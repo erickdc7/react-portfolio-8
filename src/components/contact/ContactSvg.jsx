@@ -3,3 +3,5 @@ const ContactSvg = () => {
         <div></div>
     )
 }
+
+export default ContactSvg
