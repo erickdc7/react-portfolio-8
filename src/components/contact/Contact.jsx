@@ -29,9 +29,9 @@ const Contact = () => {
                     variants={listVariants}
                     animate={isInView ? "animate" : "initial"}
                 >
-                    <h1 className="cTitle">
+                    <motion.h1 className="cTitle">
                         Let`&apos;`s keep in touch
-                    </h1>
+                    </motion.h1>
 
                     <div className="formItem">
                         <label>Name</label>
