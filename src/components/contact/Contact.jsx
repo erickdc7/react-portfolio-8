@@ -2,7 +2,10 @@ import "./contact.css"
 import { motion } from "motion/react"
 
 const listVariants = {
-
+    initial: {
+        x: 100,
+        opacity: 0,
+    }
 }
 
 const Contact = () => {
