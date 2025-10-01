@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import "./contact.css"
 import { motion, useInView } from "motion/react"
+import ContactSvg from "./ContactSvg";
 
 const listVariants = {
     initial: {
@@ -70,7 +71,7 @@ const Contact = () => {
             </div>
 
             <div className="cSection">
-
+                <ContactSvg />
             </div>
         </div>
     )
