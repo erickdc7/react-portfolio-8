@@ -4,10 +4,10 @@ import Portfolio from './components/portfolio/Portfolio'
 import Contact from './components/contact/Contact'
 import { lazy } from 'react'
 
-const Hero = lazy(() => import("./components/hero/Hero"))
-const Services = lazy(() => import("./components/hero/Services"))
-const Portfolio = lazy(() => import("./components/hero/Portfolio"))
-const Contact = lazy(() => import("./components/hero/Contact"))
+const Hero = lazy(() => import("./components/hero/Hero"));
+const Services = lazy(() => import("./components/hero/Services"));
+const Portfolio = lazy(() => import("./components/hero/Portfolio"));
+const Contact = lazy(() => import("./components/hero/Contact"));
 
 const App = () => {
   return (
