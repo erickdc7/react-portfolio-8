@@ -50,4 +50,8 @@ label {
   .contact {
     flex-direction: column;
   }
+
+  .cSection {
+    width: 100%;
+  }
 }
