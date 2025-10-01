@@ -23,7 +23,7 @@ const Contact = () => {
     const ref = useRef();
 
     return (
-        <div className="contact">
+        <div className="contact" ref={ref}>
             <div className="cSection">
                 <motion.form
                     variants={listVariants}
