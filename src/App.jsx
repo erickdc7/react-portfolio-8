@@ -4,7 +4,7 @@ import Portfolio from './components/portfolio/Portfolio'
 import Contact from './components/contact/Contact'
 import { lazy } from 'react'
 
-
+const Hero = lazy(()=>import("./components/hero/Hero"))
 
 const App = () => {
   return (
