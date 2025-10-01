@@ -1,5 +1,6 @@
+import { useRef } from "react";
 import "./contact.css"
-import { motion } from "motion/react"
+import { motion, useInView } from "motion/react"
 
 const listVariants = {
     initial: {
@@ -14,9 +15,13 @@ const listVariants = {
             staggerChildren: 0.2,
         }
     }
-}
+};
 
 const Contact = () => {
+    const isInView = useInView(ref, { margin: "-200px" })
+
+    const form = useRef();
+
     return (
         <div className="contact">
             <div className="cSection">
