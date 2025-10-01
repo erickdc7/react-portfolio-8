@@ -59,6 +59,7 @@ const Contact = () => {
 
                     <motion.button
                         className="formButton"
+                        variants={listVariants}
                     >
                         Send
                     </motion.button>
