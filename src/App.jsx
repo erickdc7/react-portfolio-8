@@ -7,7 +7,7 @@ import { lazy } from 'react'
 const Hero = lazy(() => import("./components/hero/Hero"));
 const Services = lazy(() => import("./components/services/Services"));
 const Portfolio = lazy(() => import("./components/portfolio/Portfolio"));
-const Contact = lazy(() => import("./components/hero/Contact"));
+const Contact = lazy(() => import("./components/contact/Contact"));
 
 const App = () => {
   return (
