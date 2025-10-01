@@ -45,3 +45,9 @@ label {
   border-radius: 10px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+  }
+}
