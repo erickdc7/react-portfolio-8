@@ -26,3 +26,9 @@ textarea {
   border: none;
   border-radius: 5px;
 }
+
+.formItem {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
