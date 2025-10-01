@@ -1,6 +1,10 @@
 import "./contact.css"
 import { motion } from "motion/react"
 
+const listVariants = {
+
+}
+
 const Contact = () => {
     return (
         <div className="contact">
