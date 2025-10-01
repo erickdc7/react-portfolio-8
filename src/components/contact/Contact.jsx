@@ -31,6 +31,7 @@ const Contact = () => {
                 >
                     <motion.h1
                         className="cTitle"
+                        variants={listVariants}
                     >
                         Let`&apos;`s keep in touch
                     </motion.h1>
