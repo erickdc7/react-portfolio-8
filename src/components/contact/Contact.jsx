@@ -45,14 +45,17 @@ const Contact = () => {
                     </motion.div>
 
                     <motion.div
-                        variants={listVariants}
                         className="formItem"
+                        variants={listVariants}
                     >
                         <label>Email</label>
                         <input type="email" placeholder="jhon@gmail.com" />
                     </motion.div>
 
-                    <motion.div className="formItem">
+                    <motion.div
+                        className="formItem"
+                        variants={listVariants}
+                    >
                         <label>Message</label>
                         <textarea rows={10} placeholder="Write your message..."></textarea>
                     </motion.div>
