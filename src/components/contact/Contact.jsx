@@ -52,10 +52,10 @@ const Contact = () => {
                         <input type="email" placeholder="jhon@gmail.com" />
                     </motion.div>
 
-                    <div className="formItem">
+                    <motion.div className="formItem">
                         <label>Message</label>
                         <textarea rows={10} placeholder="Write your message..."></textarea>
-                    </div>
+                    </motion.div>
 
                     <button className="formButton">Send</button>
                 </motion.form>
