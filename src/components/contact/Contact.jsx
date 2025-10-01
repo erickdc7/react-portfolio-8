@@ -57,11 +57,11 @@ const Contact = () => {
                         <textarea rows={10} placeholder="Write your message..."></textarea>
                     </motion.div>
 
-                    <button
+                    <motion.button
                         className="formButton"
                     >
                         Send
-                    </button>
+                    </motion.button>
                 </motion.form>
             </div>
 
