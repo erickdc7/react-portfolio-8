@@ -36,3 +36,12 @@ textarea {
 label {
   font-size: 13px;
 }
+
+.formButton {
+  background-color: #dd4c62;
+  color: white;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
