@@ -54,4 +54,8 @@ label {
   .cSection {
     width: 100%;
   }
+
+  .cSection:first-child {
+    height: 70%;
+  }
 }
