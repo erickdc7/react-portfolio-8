@@ -25,7 +25,7 @@ const Contact = () => {
     return (
         <div className="contact">
             <div className="cSection">
-                <form action="">
+                <motion.form action="">
                     <h1 className="cTitle">
                         Let`&apos;`s keep in touch
                     </h1>
@@ -46,7 +46,7 @@ const Contact = () => {
                     </div>
 
                     <button className="formButton">Send</button>
-                </form>
+                </motion.form>
             </div>
 
             <div className="cSection">
