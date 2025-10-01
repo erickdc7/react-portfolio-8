@@ -25,7 +25,9 @@ const Contact = () => {
     return (
         <div className="contact">
             <div className="cSection">
-                <motion.form variants={listVariants}>
+                <motion.form
+                    variants={listVariants}
+                >
                     <h1 className="cTitle">
                         Let`&apos;`s keep in touch
                     </h1>
