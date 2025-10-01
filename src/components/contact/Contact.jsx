@@ -1,4 +1,5 @@
 import "./contact.css"
+import { motion } from "motion/react"
 
 const Contact = () => {
     return (
