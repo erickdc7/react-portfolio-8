@@ -27,6 +27,7 @@ const Contact = () => {
             <div className="cSection">
                 <motion.form
                     variants={listVariants}
+                    animate={isInView ? "animate" : "initial"}
                 >
                     <h1 className="cTitle">
                         Let`&apos;`s keep in touch
