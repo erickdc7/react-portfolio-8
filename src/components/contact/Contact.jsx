@@ -20,7 +20,7 @@ const listVariants = {
 const Contact = () => {
     const isInView = useInView(ref, { margin: "-200px" })
 
-    const form = useRef();
+    const ref = useRef();
 
     return (
         <div className="contact">
