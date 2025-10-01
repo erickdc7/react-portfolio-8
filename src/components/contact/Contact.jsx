@@ -36,7 +36,10 @@ const Contact = () => {
                         Let`&apos;`s keep in touch
                     </motion.h1>
 
-                    <motion.div className="formItem">
+                    <motion.div
+                        className="formItem"
+                        variants={listVariants}
+                    >
                         <label>Name</label>
                         <input type="text" placeholder="Jhon Doe" />
                     </motion.div>
