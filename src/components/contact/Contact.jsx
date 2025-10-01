@@ -36,10 +36,10 @@ const Contact = () => {
                         Let`&apos;`s keep in touch
                     </motion.h1>
 
-                    <div className="formItem">
+                    <motion.div className="formItem">
                         <label>Name</label>
                         <input type="text" placeholder="Jhon Doe" />
-                    </div>
+                    </motion.div>
 
                     <div className="formItem">
                         <label>Email</label>
