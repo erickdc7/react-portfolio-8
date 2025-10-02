@@ -13,7 +13,7 @@ const Contact = lazy(() => import("./components/contact/Contact"));
 const App = () => {
   return (
     <div className='container'>
-      <Suspense>
+      <Suspense fallback={"loading..."}>
         <LazyLoad height={"100vh"} offset={-100}>
           <section id="#home">
             <Hero />
