@@ -21,9 +21,11 @@ const App = () => {
         </LazyLoad>
       </Suspense>
 
-      <section id="#services">
-        <Services />
-      </section>
+      <LazyLoad>
+        <section id="#services">
+          <Services />
+        </section>
+      </LazyLoad>
 
       <section id="#portfolio">
         <Portfolio />
