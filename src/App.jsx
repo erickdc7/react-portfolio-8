@@ -20,12 +20,15 @@ const App = () => {
           </section>
         </LazyLoad>
       </Suspense>
+
       <section id="#services">
         <Services />
       </section>
+
       <section id="#portfolio">
         <Portfolio />
       </section>
+
       <section id="#contact">
         <Contact />
       </section>
