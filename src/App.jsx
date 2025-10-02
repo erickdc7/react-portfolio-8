@@ -38,7 +38,7 @@ const App = () => {
       </Suspense>
 
       <Suspense>
-        <LazyLoad height={"100vh"}>
+        <LazyLoad height={"100vh"} offset={-100}>
           <section id="#contact">
             <Contact />
           </section>
