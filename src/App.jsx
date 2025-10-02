@@ -13,7 +13,7 @@ const Contact = lazy(() => import("./components/contact/Contact"));
 const App = () => {
   return (
     <div className='container'>
-      <LazyLoad>
+      <LazyLoad height={"100vh"}>
         <section id="#home">
           <Hero />
         </section>
