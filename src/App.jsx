@@ -37,9 +37,11 @@ const App = () => {
         </LazyLoad>
       </Suspense>
 
-      <section id="#contact">
-        <Contact />
-      </section>
+      <LazyLoad>
+        <section id="#contact">
+          <Contact />
+        </section>
+      </LazyLoad>
     </div>
   )
 }
