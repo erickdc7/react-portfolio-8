@@ -22,7 +22,7 @@ const App = () => {
       </Suspense>
 
       <Suspense>
-        <LazyLoad height={"100vh"}>
+        <LazyLoad height={"100vh"} offset={-100}>
           <section id="#services">
             <Services />
           </section>
@@ -30,7 +30,7 @@ const App = () => {
       </Suspense>
 
       <Suspense>
-        <LazyLoad height={"100vh"}>
+        <LazyLoad height={"100vh"} offset={-100}>
           <section id="#portfolio">
             <Portfolio />
           </section>
