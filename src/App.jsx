@@ -1,7 +1,7 @@
-import Hero from './components/hero/Hero'
+/* import Hero from './components/hero/Hero'
 import Services from './components/services/Services'
 import Portfolio from './components/portfolio/Portfolio'
-import Contact from './components/contact/Contact'
+import Contact from './components/contact/Contact' */
 import { lazy, Suspense } from 'react'
 import LazyLoad from 'react-lazyload'
 
