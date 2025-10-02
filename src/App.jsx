@@ -13,9 +13,11 @@ const Contact = lazy(() => import("./components/contact/Contact"));
 const App = () => {
   return (
     <div className='container'>
-      <section id="#home">
-        <Hero />
-      </section>
+      <LazyLoad>
+        <section id="#home">
+          <Hero />
+        </section>
+      </LazyLoad>
       <section id="#services">
         <Services />
       </section>
