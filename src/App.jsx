@@ -37,11 +37,13 @@ const App = () => {
         </LazyLoad>
       </Suspense>
 
-      <LazyLoad>
-        <section id="#contact">
-          <Contact />
-        </section>
-      </LazyLoad>
+      <Suspense>
+        <LazyLoad>
+          <section id="#contact">
+            <Contact />
+          </section>
+        </LazyLoad>
+      </Suspense>
     </div>
   )
 }
