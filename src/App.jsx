@@ -14,7 +14,11 @@ const App = () => {
   return (
     <div className='container'>
       <Suspense>
-
+        <LazyLoad height={"100vh"} offset={-100}>
+          <section id="#home">
+            <Hero />
+          </section>
+        </LazyLoad>
       </Suspense>
       <section id="#services">
         <Services />
