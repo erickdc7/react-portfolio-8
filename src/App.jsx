@@ -21,7 +21,7 @@ const App = () => {
         </LazyLoad>
       </Suspense>
 
-      <Suspense>
+      <Suspense fallback={"loading..."}>
         <LazyLoad height={"100vh"} offset={-100}>
           <section id="#services">
             <Services />
