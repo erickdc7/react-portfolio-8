@@ -2,7 +2,7 @@ import Hero from './components/hero/Hero'
 import Services from './components/services/Services'
 import Portfolio from './components/portfolio/Portfolio'
 import Contact from './components/contact/Contact'
-import { lazy } from 'react'
+import { lazy, Suspense } from 'react'
 import LazyLoad from 'react-lazyload'
 
 const Hero = lazy(() => import("./components/hero/Hero"));
@@ -13,11 +13,9 @@ const Contact = lazy(() => import("./components/contact/Contact"));
 const App = () => {
   return (
     <div className='container'>
-      <LazyLoad height={"100vh"} offset={-100}>
-        <section id="#home">
-          <Hero />
-        </section>
-      </LazyLoad>
+      <Suspense>
+
+      </Suspense>
       <section id="#services">
         <Services />
       </section>
