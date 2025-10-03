@@ -1,5 +1,5 @@
-import { TypeAnimation } from 'react-type-animation';
-import { motion } from 'motion/react';
+import { TypeAnimation } from "react-type-animation";
+import { motion } from "motion/react";
 
 const Speech = () => {
     return (
@@ -12,22 +12,21 @@ const Speech = () => {
                 <TypeAnimation
                     sequence={[
                         1000,
-                        'Lorem ipsum dolor sit amet consectetur adipisicing.',
+                        "Same substring at the start will only be typed out once, initially",
                         1000,
-                        'Lorem ipsum dolor sit amet, consectetur adipisicing',
+                        "Lorem ipsum dolor sit amet lerinat consectetur adipisicing. ",
                         1000,
                     ]}
                     wrapper="span"
                     speed={40}
                     deletionSpeed={60}
-                    /* omitDeletionAnimation */
+                    // omitDeletionAnimation
                     repeat={Infinity}
                 />
             </div>
-
             <img src="/man.png" alt="" />
         </motion.div>
-    )
-}
+    );
+};
 
-export default Speech
+export default Speech;
