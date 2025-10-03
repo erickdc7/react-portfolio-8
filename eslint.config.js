@@ -35,6 +35,17 @@ export default [
         "warn",
         { allowConstantExport: true },
       ],
+      "react/no-unknown-property": ["error", {
+        ignore: ["geometry",
+          "material",
+          "position",
+          "rotation",
+          "scale",
+          "args",
+          "dispose",
+          "attach",
+          "intensity"]
+      }],
     },
   },
 ];
