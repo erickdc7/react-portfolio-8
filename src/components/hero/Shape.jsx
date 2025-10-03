@@ -1,4 +1,4 @@
-import { MeshDistortMaterial, Sphere } from "@react-three/drei"
+import { MeshDistortMaterial, Sphere } from "@react-three/drei";
 
 const Shape = () => {
     return (
@@ -14,7 +14,7 @@ const Shape = () => {
             <ambientLight intensity={2} />
             <directionalLight position={[1, 2, 3]} />
         </>
-    )
-}
+    );
+};
 
-export default Shape
+export default Shape;
