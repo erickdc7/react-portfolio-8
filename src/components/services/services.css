@@ -61,12 +61,10 @@
 .service:nth-child(1) .serviceIcon {
   background-color: #dd4c62;
 }
-
 .service:nth-child(2) .serviceIcon {
   background-color: #025656;
 }
-
-.service:nth-child(2) .serviceIcon {
+.service:nth-child(3) .serviceIcon {
   background-color: #6c5c0c;
 }
 
@@ -91,16 +89,17 @@
 
 .counter p {
   font-size: 13px;
+  width: 120px;
 }
 
-@media screen and (max-width: 1536px) {
+@media (max-width: 1536px) {
   .service,
   .counterList {
     width: 70%;
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media (max-width: 1280px) {
   .sTitle {
     font-size: 128px;
   }
@@ -110,7 +109,7 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .sTitle {
     font-size: 48px;
   }
@@ -121,7 +120,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .services {
     align-items: center;
     justify-content: center;
