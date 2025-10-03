@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import "./portfolio.css"
+import "./portfolio.css";
 import { motion, useInView, useScroll, useTransform } from "motion/react";
 
 const items = [
@@ -24,7 +24,6 @@ const items = [
         desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure laboriosam tempore consectetur, atque maiores culpa quia, repellat id, dicta esse fugit neque voluptatem provident itaque voluptates minima. Repudiandae, provident hic.",
         link: "/",
     },
-
     {
         id: 4,
         img: "/p4.jpg",
@@ -32,7 +31,6 @@ const items = [
         desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure laboriosam tempore consectetur, atque maiores culpa quia, repellat id, dicta esse fugit neque voluptatem provident itaque voluptates minima. Repudiandae, provident hic.",
         link: "/",
     },
-
     {
         id: 5,
         img: "/p5.jpg",
@@ -41,45 +39,6 @@ const items = [
         link: "/",
     },
 ];
-
-const ListItem = ({ item }) => {
-    const ref = useRef();
-
-    const isInView = useInView(ref, { margin: "-100px" })
-
-    return (
-        <div className="pItem" ref={ref}>
-            <motion.div
-                className="pImg"
-                variants={imgVariants}
-                animate={isInView ? "animate" : "initial"}
-            >
-                <img src={item.img} alt="" />
-            </motion.div>
-
-            <motion.div
-                className="pText"
-                variants={textVariants}
-                animate={isInView ? "animate" : "initial"}
-            >
-                <motion.h1>
-                    {item.title}
-                    variants={textVariants}
-                </motion.h1>
-                <motion.p>
-                    {item.desc}
-                    variants={textVariants}
-                </motion.p>
-                <motion.a
-                    href={item.link}
-                    variants={textVariants}
-                >
-                    <button>View Project</button>
-                </motion.a>
-            </motion.div>
-        </div>
-    )
-}
 
 const imgVariants = {
     initial: {
@@ -96,7 +55,7 @@ const imgVariants = {
             ease: "easeInOut",
         },
     },
-}
+};
 
 const textVariants = {
     initial: {
@@ -114,42 +73,87 @@ const textVariants = {
             staggerChildren: 0.05,
         },
     },
-}
+};
+
+const ListItem = ({ item }) => {
+    const ref = useRef();
+
+    const isInView = useInView(ref, { margin: "-100px" });
+
+    return (
+        <div className="pItem" ref={ref}>
+            <motion.div
+                variants={imgVariants}
+                animate={isInView ? "animate" : "initial"}
+                className="pImg"
+            >
+                <img src={item.img} alt="" />
+            </motion.div>
+            <motion.div
+                variants={textVariants}
+                animate={isInView ? "animate" : "initial"}
+                className="pText"
+            >
+                <motion.h1 variants={textVariants}>{item.title}</motion.h1>
+                <motion.p variants={textVariants}>{item.desc}</motion.p>
+                <motion.a variants={textVariants} href={item.link}>
+                    <button>View Project</button>
+                </motion.a>
+            </motion.div>
+        </div>
+    );
+};
 
 const Portfolio = () => {
-    const [containerDistance, setContainerDistance] = useState(0)
+    const [containerDistance, setContainerDistance] = useState(0);
+    const ref = useRef(null);
 
-    const ref = useRef()
+    // useEffect(() => {
+    //   if (ref.current) {
+    //     const rect = ref.current.getBoundingClientRect();
+    //     setContainerDistance(rect.left);
+    //   }
+    // }, []);
 
+    // FIX: Re-calculate when screen size changes
     useEffect(() => {
-        if (ref.current) {
-            const rect = ref.current.getBoundingClientRect();
-            setContainerDistance(rect.left);
-        }
-    }, [])
+        const calculateDistance = () => {
+            if (ref.current) {
+                const rect = ref.current.getBoundingClientRect();
+                setContainerDistance(rect.left);
+            }
+        };
 
+        calculateDistance();
 
-    const { scrollYProgress } = useScroll({ target: ref })
+        window.addEventListener("resize", calculateDistance);
+
+        return () => {
+            window.removeEventListener("resize", calculateDistance);
+        };
+    }, []);
+
+    const { scrollYProgress } = useScroll({ target: ref });
 
     const xTranslate = useTransform(
         scrollYProgress,
         [0, 1],
         [0, -window.innerWidth * items.length]
-    )
+    );
 
     return (
         <div className="portfolio" ref={ref}>
             <motion.div className="pList" style={{ x: xTranslate }}>
                 <div
                     className="empty"
-                    style={{ width: window.innerWidth - containerDistance, /* backgroundColor: "pink"  */ }}
+                    style={{
+                        width: window.innerWidth - containerDistance,
+                        // backgroundColor: "pink",
+                    }}
                 />
-
-                {
-                    items.map((item) => (
-                        <ListItem item={item} key={item.id} />
-                    ))
-                }
+                {items.map((item) => (
+                    <ListItem item={item} key={item.id} />
+                ))}
             </motion.div>
             <section />
             <section />
@@ -179,7 +183,7 @@ const Portfolio = () => {
                 </svg>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Portfolio
+export default Portfolio;
