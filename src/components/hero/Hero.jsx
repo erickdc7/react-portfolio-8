@@ -1,9 +1,9 @@
-import { Canvas } from "@react-three/fiber"
-import "./hero.css"
-import Speech from "./Speech"
-import { motion } from "motion/react"
-import Shape from "./Shape"
-import { Suspense } from "react"
+import { Canvas } from "@react-three/fiber";
+import "./hero.css";
+import Speech from "./Speech";
+import { motion } from "motion/react";
+import Shape from "./Shape";
+import { Suspense } from "react";
 
 const awardVariants = {
     initial: {
@@ -16,9 +16,9 @@ const awardVariants = {
         transition: {
             duration: 1,
             staggerChildren: 0.2,
-        }
+        },
     },
-}
+};
 
 const followVariants = {
     initial: {
@@ -31,9 +31,9 @@ const followVariants = {
         transition: {
             duration: 1,
             staggerChildren: 0.2,
-        }
+        },
     },
-}
+};
 
 const Hero = () => {
     return (
@@ -46,10 +46,10 @@ const Hero = () => {
                     transition={{ duration: 1 }}
                     className="hTitle"
                 >
-                    Hey, There, <br />
-                    <span>I am Erick!</span>
+                    Hey There,
+                    <br />
+                    <span>I&apos;m Robert!</span>
                 </motion.h1>
-
                 {/* AWARDS */}
                 <motion.div
                     variants={awardVariants}
@@ -57,31 +57,23 @@ const Hero = () => {
                     animate="animate"
                     className="awards"
                 >
-                    <motion.h2 variants={awardVariants}>
-                        Top Rated Designer
-                    </motion.h2>
-
+                    <motion.h2 variants={awardVariants}>Top Rated Designer</motion.h2>
                     <motion.p variants={awardVariants}>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, veniam.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     </motion.p>
-
-                    <motion.div
-                        variants={awardVariants}
-                        className="awardList"
-                    >
+                    <motion.div variants={awardVariants} className="awardList">
                         <motion.img variants={awardVariants} src="/award1.png" alt="" />
                         <motion.img variants={awardVariants} src="/award2.png" alt="" />
                         <motion.img variants={awardVariants} src="/award3.png" alt="" />
                     </motion.div>
                 </motion.div>
-
                 {/* SCROLL SVG */}
                 <motion.a
                     animate={{ y: [0, 5], opacity: [0, 1, 0] }}
                     transition={{
                         repeat: Infinity,
                         duration: 4,
-                        ease: "easeInOut"
+                        ease: "easeInOut",
                     }}
                     href="#services"
                     className="scroll"
@@ -103,7 +95,7 @@ const Hero = () => {
                             transition={{
                                 repeat: Infinity,
                                 duration: 4,
-                                ease: "easeInOut"
+                                ease: "easeInOut",
                             }}
                             d="M12 5V8"
                             stroke="white"
@@ -113,7 +105,6 @@ const Hero = () => {
                     </svg>
                 </motion.a>
             </div>
-
             <div className="hSection right">
                 {/* FOLLOW */}
                 <motion.div
@@ -123,47 +114,40 @@ const Hero = () => {
                     className="follow"
                 >
                     <motion.a variants={followVariants} href="/">
-                        <img src="/instragram.png" alt="" />
+                        <img src="/instagram.png" alt="" />
                     </motion.a>
-
                     <motion.a variants={followVariants} href="/">
                         <img src="/facebook.png" alt="" />
                     </motion.a>
-
                     <motion.a variants={followVariants} href="/">
                         <img src="/youtube.png" alt="" />
                     </motion.a>
-
-                    <motion.div
-                        variants={followVariants}
-                        className="followTextContainer"
-                    >
+                    <motion.div variants={followVariants} className="followTextContainer">
                         <div className="followText">FOLLOW ME</div>
                     </motion.div>
                 </motion.div>
-
                 {/* BUBBLE */}
                 <Speech />
-
                 {/* CERTIFICATE */}
                 <motion.div
-                    className="certificate"
                     animate={{ opacity: [0, 1] }}
                     transition={{ duration: 1 }}
+                    className="certificate"
                 >
                     <img src="/certificate.png" alt="" />
-                    LMA CERTIFICED<br />
-                    PROFESSIONAL<br />
+                    LMA CERTIFICED
+                    <br />
+                    PROFESSIONAL
+                    <br />
                     UI DESIGNER
                 </motion.div>
-
                 {/* CONTACT BUTTON */}
                 <motion.a
                     href="/#contact"
                     className="contactLink"
                     animate={{
                         x: [200, 0],
-                        opacity: [0, 1]
+                        opacity: [0, 1],
                     }}
                     transition={{
                         duration: 2,
@@ -175,7 +159,7 @@ const Hero = () => {
                         transition={{
                             duration: 10,
                             repeat: Infinity,
-                            ease: "linear"
+                            ease: "linear",
                         }}
                     >
                         <svg viewBox="0 0 200 200" width="150" height="150">
@@ -185,16 +169,15 @@ const Hero = () => {
                                 fill="none"
                                 d="M 100,100 m -60,0 a 60,60 0 1,1 120,0 a 60,60 0 1,1 -120,0"
                             />
-
                             <text className="circleText">
-                                <textPath href="#innerCirclePath">Hire Now -</textPath>
+                                <textPath href="#innerCirclePath">Hire Now •</textPath>
                             </text>
-
                             <text className="circleText">
-                                <textPath href="#innerCirclePath" startOffset="44%">Contact Me -</textPath>
+                                <textPath href="#innerCirclePath" startOffset="44%">
+                                    Contact Me •
+                                </textPath>
                             </text>
                         </svg>
-
                         <div className="arrow">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -212,21 +195,19 @@ const Hero = () => {
                     </motion.div>
                 </motion.a>
             </div>
-
             <div className="bg">
-                {/* 3D */}
+                {/* 3d */}
                 <Canvas>
                     <Suspense fallback="loading...">
                         <Shape />
                     </Suspense>
                 </Canvas>
-
                 <div className="hImg">
                     <img src="/hero.png" alt="" />
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Hero
+export default Hero;
