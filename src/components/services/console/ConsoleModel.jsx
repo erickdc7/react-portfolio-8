@@ -1,16 +1,20 @@
-import { useGLTF } from '@react-three/drei'
+import { Canvas } from "@react-three/fiber";
+import { Suspense } from "react";
+import { ConsoleModel } from "./ConsoleModel";
+import { OrbitControls, PerspectiveCamera, Stage } from "@react-three/drei";
 
-export function ConsoleModel(props) {
-    const { nodes, materials } = useGLTF('/consoleModel.glb')
+const ConsoleModelContainer = () => {
     return (
-        <group {...props} dispose={null}>
-            <group rotation={[-Math.PI / 2, 0, 0]} scale={1.112}>
-                <group rotation={[Math.PI / 2, 0, 0]} scale={0.01}>
-                    <mesh geometry={nodes.Cube_Material_0.geometry} material={materials.Material} position={[0, 21.93, 0]} scale={100} />
-                </group>
-            </group>
-        </group>
-    )
-}
+        <Canvas>
+            <Suspense fallback="loading...">
+                <Stage environment="night" intensity={0.5}>
+                    <ConsoleModel />
+                </Stage>
+                <OrbitControls enableZoom={false} autoRotate />
+                <PerspectiveCamera position={[-1, 0, 1.8]} zoom={0.8} makeDefault />
+            </Suspense>
+        </Canvas>
+    );
+};
 
-useGLTF.preload('/consoleModel.glb')
+export default ConsoleModelContainer;
