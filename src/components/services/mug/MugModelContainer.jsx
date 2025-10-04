@@ -10,7 +10,7 @@ const MugModelContainer = () => {
                 <ambientLight intensity={1} />
                 <directionalLight position={[10, 10, 5]} intensity={2} />
                 <pointLight position={[-10, -10, -10]} intensity={1} />
-                <MugModel scale={0.15} position={[0, -0.3, 0]} />
+                <MugModel scale={0.16} position={[0, -0.3, 0]} />
                 <OrbitControls enableZoom={false} autoRotate />
                 <PerspectiveCamera position={[0, -1, 2]} zoom={0.7} makeDefault />
             </Suspense>
