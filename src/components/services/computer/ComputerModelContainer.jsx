@@ -10,7 +10,7 @@ const ComputerModelContainer = () => {
                 <ambientLight intensity={0.5} />
                 <directionalLight position={[10, 10, 5]} intensity={1} />
                 <pointLight position={[-10, -10, -10]} intensity={0.5} />
-                <ComputerModel scale={3} />
+                <ComputerModel scale={3} position={[0, -0.3, 0]} />
                 <OrbitControls enableZoom={false} autoRotate />
                 <PerspectiveCamera position={[-1, 0, 1.8]} zoom={0.8} makeDefault />
             </Suspense>
