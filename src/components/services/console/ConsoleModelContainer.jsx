@@ -7,7 +7,7 @@ const ConsoleModelContainer = () => {
     return (
         <Canvas>
             <Suspense fallback="loading...">
-                <Stage environment="night" intensity={0.5}>
+                <Stage environment="sunset" intensity={0.5}>
                     <ConsoleModel />
                 </Stage>
                 <OrbitControls enableZoom={false} autoRotate />
