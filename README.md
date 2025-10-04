@@ -17,7 +17,6 @@ This web page was made with the following technologies:
 - Motion (Framer Motion)
 - React Type Animation
 - React Lazyload
-- Troika Three Text
 
 ## Pages
 
